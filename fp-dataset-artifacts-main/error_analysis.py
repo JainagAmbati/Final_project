@@ -1,5 +1,4 @@
 """
-jainag
 Error Analysis Script for Full SNLI Model
 Categorizes errors and finds patterns in what the model gets wrong.
 """
@@ -19,7 +18,11 @@ def load_predictions(filepath):
     predictions = []
     with open(filepath, 'r') as f:
         for line in f:
-            predictions.append(json.loads(line))
+            pred = json.loads(line)
+            # Add 'correct' field if not present
+            if 'correct' not in pred:
+                pred['correct'] = (pred['predicted_label'] == pred['label'])
+            predictions.append(pred)
     return predictions
 
 

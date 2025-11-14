@@ -1,0 +1,1068 @@
+premise,hypothesis,true_label,predicted_label,word_overlap,categories,has_negation
+"Two young children in blue jerseys, one with the number 9 and one with the number 2 are standing on wooden steps in a bathroom and washing their hands in a sink.",Two kids in jackets walk to school.,contradiction,neutral,28.57%,other,False
+A woman is doing a cartwheel while wearing a bikini in the sand next to the beach.,A woman is doing a cartwheel and falls on her head.,contradiction,neutral,50.00%,other,False
+Families waiting in line at an amusement park for their turn to ride.,People are waiting to see a movie.,contradiction,neutral,28.57%,other,False
+"At an outdoor event in an Asian-themed area, a crowd congregates as one person in a yellow Chinese dragon costume confronts the camera.",A crowd is in front of a camera,neutral,entailment,42.86%,false_entailment,False
+A man in a green jersey and rollerskates stumbles as a man in a black jersey appears to collide with him.,They both fall to the ground.,neutral,contradiction,16.67%,low_overlap,False
+"A taxi SUV drives past an urban construction site, as a man walks down the street in the other direction.",A man is chasing an SUV that is going in the same direction as him.,contradiction,neutral,50.00%,long_hypothesis,False
+"A taxi SUV drives past an urban construction site, as a man walks down the street in the other direction.",An SUV and a man are going in opposite directions.,entailment,contradiction,50.00%,false_contradiction,False
+The two farmers are working on a piece of John Deere equipment.,2 Men are making a pool together,contradiction,neutral,28.57%,other,False
+"Two black little boys hanging over an upside down bicycle, one examining the pedal.",the children are outside.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+"Two black little boys hanging over an upside down bicycle, one examining the pedal.",Someone is riding a bike.,contradiction,entailment,0.00%,"low_overlap, missed_contradiction",False
+A brown a dog and a black dog in the edge of the ocean with a wave under them boats are on the water in the background.,The dogs are swimming among the boats.,entailment,neutral,33.33%,missed_entailment,False
+A group of people prepare hot air balloons for takeoff.,There are hot air balloons on the ground and air.,neutral,entailment,30.00%,false_entailment,False
+A group of young people with instruments are on stage.,People are playing music.,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+A young boy with black hair is holding onto a gun which is secured to a vehicle which is being driven by a young man who is wearing a bright pink shirt.,The boy is outside and running from cops.,neutral,contradiction,25.00%,other,False
+A woman is talking on the phone while standing next to a dog.,A woman is walking her dog.,neutral,contradiction,66.67%,other,False
+Three young boys one is holding a camera and another is holding a green toy all are wearing t-shirt and smiling.,The boys are all wearing yellow.,neutral,contradiction,66.67%,"negation, quantifier",True
+Three young boys one is holding a camera and another is holding a green toy all are wearing t-shirt and smiling.,The boy is crouching down to take a picture.,neutral,contradiction,22.22%,"negation, quantifier",True
+Two men playing baseball with the one in the black and red jersey running toward base.,There is a baseball game going on.,entailment,neutral,14.29%,"low_overlap, missed_entailment",False
+A man and a woman are looking at produce on display.,A man and women are staring at heads of lettuce.,neutral,contradiction,50.00%,other,False
+People are throwing tomatoes at each other.,The people are having a food fight.,entailment,neutral,28.57%,"quantifier, missed_entailment",False
+A small ice cream stand with two people standing near it.,Two people selling ice cream from a car.,contradiction,neutral,62.50%,other,False
+Number 916 is hoping that he is going to win the race.,A person is betting that he will win  the race.,neutral,entailment,60.00%,false_entailment,False
+Girl plays with colorful letters on the floor.,The girl is having fun learning her letters.,entailment,neutral,25.00%,missed_entailment,False
+A man wandering in the desert as the clouds roll in.,A man wonders in the desert.,entailment,neutral,66.67%,missed_entailment,False
+A lady with bright orange hair walking in a crowd.,The street performer is entertaining the tourists.,contradiction,neutral,0.00%,low_overlap,False
+A man running a marathon talks to his friend.,A man and his friend are running a marathon together.,neutral,entailment,55.56%,false_entailment,False
+A group of people sit on benches at a park outside a building.,The people sit together.,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+Number 13 kicks a soccer ball towards the goal during children's soccer game.,A player passing the ball in a soccer game.,contradiction,entailment,62.50%,missed_contradiction,False
+Number 13 kicks a soccer ball towards the goal during children's soccer game.,A player trying to score in a soccer game.,entailment,neutral,37.50%,missed_entailment,False
+This is the image of two Asian men squatting near a mop-pad.,Two young asian men are squatting.,entailment,neutral,50.00%,missed_entailment,False
+An older gentleman speaking at a podium.,A man giving a speech,neutral,entailment,25.00%,false_entailment,False
+A man is a safety suit walking outside while another man in a dark suit walks into a building.,Men are walking  in different directions.,entailment,contradiction,33.33%,"negation, false_contradiction",True
+A man poses for a photo in front of a Chinese building by jumping.,The man has experience in taking photos.,neutral,entailment,28.57%,false_entailment,False
+A couple bows their head as a man in a decorative robe reads from a scroll in Asia with a black late model station wagon in the background.,A light black late model station wagon is in the background.,entailment,neutral,81.82%,"high_overlap, missed_entailment",False
+A boy in red slides down an inflatable ride.,A boy rolls around an inflatable ride.,neutral,entailment,71.43%,"high_overlap, false_entailment",False
+two people are waiting for a train at a station.,They expect a train to arrive eventually.,entailment,neutral,28.57%,missed_entailment,False
+"Two men sitting on a subway are reading, with coats and scarves on, but have seemed to have lost their pants.",The men are wearing pants.,contradiction,entailment,60.00%,missed_contradiction,False
+A man with a beard skateboarding and a boy with a blue and black backpack riding a green bike in the background.,There is a kid skateboarding and a bearded man on a bike.,contradiction,entailment,40.00%,missed_contradiction,False
+Two female workers sit on some steps during work.,Two friends sitting on step at their job.,entailment,neutral,25.00%,"quantifier, missed_entailment",False
+Two boys stand in an ocean as the sun sets.,The boys are surfing,neutral,contradiction,50.00%,short_hypothesis,False
+Group yoga class exercising.,A group of people holding various positions for a period of time.,neutral,entailment,10.00%,"low_overlap, false_entailment",False
+A child is looking out of a door.,The door is open.,neutral,contradiction,25.00%,short_hypothesis,False
+A boy in a baseball cap jumps over a flight of stairs.,A guy inside.,neutral,entailment,33.33%,"short_hypothesis, false_entailment",False
+A woman is using clothespins to hang up laundry outside on a laundry line.,A woman is folding her washed laundry.,contradiction,neutral,42.86%,other,False
+Four young men sit on the floor close to a television that is showing Elmo from Sesame Street.,Four males are sitting indoors.,entailment,contradiction,20.00%,false_contradiction,False
+Four young men sit on the floor close to a television that is showing Elmo from Sesame Street.,Four males are sitting indoors because it's raining.,neutral,contradiction,12.50%,low_overlap,False
+"Dinner and decisions, with the crew.",the crew was celebrating a birthday,neutral,contradiction,16.67%,low_overlap,False
+"This mother and her daughter and granddaughter are having car trouble, and the poor little girl looks hot out in the heat.",The car that belongs to the family is having issues.,entailment,neutral,33.33%,missed_entailment,False
+"A woman holds her child out of a red window, next to a Color TV sign.",The TV holds a woman who holds a child.,contradiction,entailment,57.14%,missed_contradiction,False
+A hispanic fruit market with many different fruits and vegetables in view on a city street with a man passing the store dressed in dark pants and a hoodie.,A fruit market is selling vegetables,entailment,neutral,66.67%,"quantifier, missed_entailment",False
+A teenage girl in winter clothes slides down a decline in a red sled.,A girl is by herself on a sled.,entailment,neutral,42.86%,missed_entailment,False
+Three children dressed in winter clothes are walking through the woods while pushing cargo along.,Three children are dressed in warm winter clothes.,entailment,neutral,75.00%,"high_overlap, missed_entailment",False
+A man is sitting outside wearing blue pants.,The person is on the ground.,neutral,entailment,20.00%,false_entailment,False
+Two players are on a wet field and one is on the ground.,There are only two people in the field.,entailment,contradiction,37.50%,false_contradiction,False
+Five people are sitting on horses at a rodeo.,Bandits are sitting on horses as they prepare for a robbery.,contradiction,neutral,45.45%,other,False
+An indian man walks past a temple on his way to pray.,A man is heading to his house of worship.,entailment,neutral,44.44%,missed_entailment,False
+A man in a green Celtic sleeveless jersey shirt and short stone washed jean shorts sitting and eating.,The man is wearing a Cowboys jersey.,contradiction,neutral,28.57%,other,False
+"A woman in a patterned shirt hands a plate of food to another woman in an apron, while two women work in the background.",Maids get ready to clean the house.,neutral,contradiction,28.57%,negation,True
+Two kids are standing in the ocean hugging each other.,Two kids enjoy their day at the beach.,neutral,entailment,37.50%,"quantifier, false_entailment",False
+A girl in a striped black and white sweater holds on to her friend who is bent over wearing a hooded black sweater and torn blue jeans.,The girl is wearing jeans.,neutral,entailment,80.00%,"high_overlap, false_entailment",False
+"People in a grocery store crowd around to watch a Tv, except one man who walks toward the camera.",The people are watching a soccer game.,neutral,contradiction,42.86%,other,False
+A musical group performing on a green carpet in front of small televisions.,A rock band is performing in an electronics store.,neutral,contradiction,33.33%,other,False
+A woman in a gray shirt working on papers at her desk.,Lady showing result of anger on her boss scolding,contradiction,neutral,22.22%,other,False
+A young girl plays with a neon-colored Slinky in a crowd of people on a street lined with flags.,The Slinky is black.,contradiction,neutral,25.00%,short_hypothesis,False
+A boy is standing at the edge of a wave with the sun setting or rising in the background.,A boy is school.,contradiction,neutral,75.00%,"high_overlap, short_hypothesis",False
+Several men in protective suits are rolling a man on a gurnee.,A man is on a gurney,entailment,contradiction,60.00%,"quantifier, false_contradiction",False
+Several men in protective suits are rolling a man on a gurnee.,A man is being taken into the hospital,neutral,contradiction,25.00%,quantifier,False
+A man is jumping unto his filthy bed.,The man is dirty.,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+Sidewalk vendor dressed in white shirt brown pants sells grilled corn.,The corn came straight from the field by truck,neutral,contradiction,0.00%,low_overlap,False
+A kid in a red and black coat is laying on his back in the snow with his arm in the air and a red sled is next to him.,It is a cold day.,entailment,neutral,40.00%,"negation, missed_entailment",True
+A white-haired man in a white shirt looks at information in an orange-red binder.,A man is a secret agent orange peeler.,contradiction,neutral,28.57%,other,False
+A thrill seeker uses her arms for balance while crossing a beam suspended high above craggy rocks.,A woman crosses a high-wire in a state of complete terror.,neutral,contradiction,11.11%,low_overlap,False
+Produce market in India protected by umbrella shades.,THE grass was green,contradiction,neutral,0.00%,"low_overlap, short_hypothesis",False
+Three men look on as two other men carve up a freshly barbecued hog in the backyard.,Other look while a man carves beef,contradiction,neutral,42.86%,other,False
+A man dressed in bright colored clothing is sitting on a chair on the sidewalk playing an instrument for cash.,The man is singing on the street corner for money.,neutral,contradiction,55.56%,other,False
+A little boy bowls in a carpeted hallway.,A boy is bowling.,entailment,contradiction,50.00%,"short_hypothesis, false_contradiction",False
+A little boy bowls in a carpeted hallway.,A boy is rolling a ball in a hotel hallway.,neutral,contradiction,50.00%,other,False
+A young girl kisses a ring-bearing boy at a wedding.,A boy turns his head away as a girl tries to kiss him.,neutral,contradiction,25.00%,other,False
+A girl in a pink tank top and her boyfriend sitting on stone steps.,A boy and girl are kissing.,neutral,contradiction,50.00%,other,False
+"A well built black man stands in the subway, listening to headphones.",A man listens to music while waiting for the train.,entailment,neutral,40.00%,missed_entailment,False
+"There are three men in this picture, two are on motorbikes, one of the men has a large piece of furniture on the back of his bike, the other is about to be handed a piece of paper by a man in a white shirt.",Three men are on motorcycles.,contradiction,entailment,80.00%,"high_overlap, missed_contradiction",False
+Professional women at the registration table of an event while men in suits look on.,People are partying.,contradiction,neutral,0.00%,"low_overlap, short_hypothesis",False
+A building that portrays beautiful architecture stands in the sunlight as somebody on a bike passes by.,A bicyclist rides past an intricately designed church on a pretty day,neutral,contradiction,18.18%,low_overlap,False
+A building that portrays beautiful architecture stands in the sunlight as somebody on a bike passes by.,A bicyclist rides past an abandoned warehouse on a rainy day,neutral,contradiction,20.00%,other,False
+A person dressed in red and black outside a cracked wall.,A person in red and black near a brick wall.,neutral,entailment,77.78%,"high_overlap, false_entailment",False
+Two people with bags next to a street at night.,The people are together,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+"A black dog is drinking next to a brown and white dog that is looking at an orange ball in the lake, whilst a horse and rider passes behind.",Two short haired dogs of different colors drinking by a lake.,neutral,entailment,18.18%,"low_overlap, false_entailment",False
+"Two teams of children, one green the other red, play each other in a game of Rugby while it rains.",The children are wearing red and green to practice thier Christmas show.,contradiction,neutral,16.67%,"low_overlap, quantifier",False
+Five little boys are playing baseball.,A few little boys playing baseball outside.,entailment,neutral,42.86%,"quantifier, missed_entailment",False
+Someone in a red and white uniform is driving a red and white motorcycle down a track with the front wheel in the air.,A man rides and ATV.,contradiction,entailment,40.00%,missed_contradiction,False
+Someone in a red and white uniform is driving a red and white motorcycle down a track with the front wheel in the air.,A man pops a wheely on a track for onlookers.,neutral,contradiction,25.00%,other,False
+Two women playing field hockey on AstroTurf.,Women re-sod a field hockey field.,contradiction,neutral,50.00%,other,False
+A goalie tries to catch a ball during a soccer game.,a goalie is doing his job as a goalie.,entailment,neutral,25.00%,missed_entailment,False
+A man in a bar drinks from a pitcher while a man in a green hat looks on and a woman in a black shirt drink from a glass.,The women is drinking water.,neutral,contradiction,0.00%,low_overlap,False
+A man in a bar drinks from a pitcher while a man in a green hat looks on and a woman in a black shirt drink from a glass.,A women in black drinks.,entailment,contradiction,60.00%,false_contradiction,False
+"Inside the igloo, the young man gets ready for his overnight stay.",The young man is resting.,neutral,entailment,60.00%,false_entailment,False
+"Inside the igloo, the young man gets ready for his overnight stay.",The young man gets ready to leave.,contradiction,entailment,71.43%,"high_overlap, missed_contradiction",False
+Two female basketball teams watch suspenseful as the basketball nears the basket.,Two teams are following the movement of a basketball.,entailment,neutral,33.33%,missed_entailment,False
+Man in brown and red checkered button up shirt and blue jeans makes a male and female laugh.,A person in casual clothing is causing two others to be merry.,entailment,contradiction,16.67%,"low_overlap, false_contradiction",False
+A girl with a purple sweater and a green headband is doing classwork in a classroom.,A girl with a sweater and headband is doing her homework after school.,contradiction,neutral,66.67%,other,False
+A youngster straddles a small makeshift bench while his companion plays in the doorway nearby.,A kid straddles a bench,neutral,entailment,75.00%,"high_overlap, false_entailment",False
+Two children standing in the grass being sprayed by a hose.,Children are playing tag in the grass,contradiction,neutral,57.14%,other,False
+A young adolescent is jumping into a pool.,The child is scared to jump in the water.,contradiction,neutral,12.50%,low_overlap,False
+Two people are looking at something in New York City.,Two people looking at New York.,neutral,entailment,83.33%,"high_overlap, false_entailment",False
+Two girls play with origami.,The girls make paper cranes,neutral,contradiction,20.00%,other,False
+Two girls play with origami.,The girls hold paper,entailment,contradiction,25.00%,"short_hypothesis, false_contradiction",False
+A photographer snaps a midair action shot of a snowboarder.,The midair shot snaps at a boarder of snow.,contradiction,entailment,55.56%,"negation, missed_contradiction",True
+A photographer snaps a midair action shot of a snowboarder.,The camera is on a tripod.,neutral,contradiction,16.67%,"negation, low_overlap",True
+An adult ballerina shows you children how to dance.,A ballerina is teaching kids ballet.,entailment,neutral,16.67%,"low_overlap, missed_entailment",False
+2 woman walking down the street next to graffiti,The grafitti is a picture of a mouse.,neutral,contradiction,14.29%,low_overlap,False
+2 woman walking down the street next to graffiti,The woman are by grafitti.,entailment,neutral,40.00%,missed_entailment,False
+A hot-air balloon getting filled.,A hot-air balloon is flying over a mountain range.,contradiction,neutral,37.50%,other,False
+An Indian man standing on the bank of a river.,There is a black man fishing.,neutral,contradiction,33.33%,other,False
+Two guys and a woman standing and talking in a playground.,Three adults are standing and thinking about space.,neutral,contradiction,25.00%,other,False
+A man in a yellow shirt does East Asian calligraphy.,A man does Japanese calligraphy.,neutral,contradiction,80.00%,high_overlap,False
+Two girls talk at an ice skating rink.,Two women compete in a speed skating race.,contradiction,neutral,25.00%,other,False
+A group of people standing in front of a club.,There are seven people leaving the club.,contradiction,neutral,28.57%,other,False
+Balding man in gray sweater plays with his dog.,A man puts the sweater he knitted on a dog.,contradiction,neutral,33.33%,other,False
+The man in black has a condom on his head.,The man is wearing a prophylactic on his head.,entailment,neutral,66.67%,missed_entailment,False
+Four female children gather around a brown table to paint.,Girls are playing outside.,neutral,contradiction,0.00%,"low_overlap, short_hypothesis",False
+Two girls and a guy are involved in a pie eating contest.,Three people are stuffing their faces.,entailment,contradiction,16.67%,"low_overlap, false_contradiction",False
+A couple in bathing suits walk on a beach.,The couple are together,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+A man in a plaid shirt and brown pants walking around town with one hand in his pocket.,The man is going for a walk.,entailment,neutral,28.57%,missed_entailment,False
+A man wearing blue jeans and a black shirt is talking to a man wearing white shorts while they are sitting outside in folding chairs on a patio.,the woman is white,contradiction,neutral,50.00%,short_hypothesis,False
+A soccer game in a large area with 8 yellow players and 4 black players.,There is a soccer game with 12 players.,entailment,contradiction,62.50%,false_contradiction,False
+A soccer game in a large area with 8 yellow players and 4 black players.,There is a soccer game with 12 male players.,neutral,contradiction,55.56%,other,False
+Four children are dressed as clowns and dancers on a stage while another two children dressed as clowns are suspended from ropes.,Six children are putting on a clown show.,entailment,neutral,50.00%,"negation, missed_entailment",True
+People are getting money our of an ATM.,People are in the check out line.,contradiction,entailment,28.57%,missed_contradiction,False
+A man and a woman is walking with a dog across a beach,There is a couple.,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+Two little girls play in a fountain.,The two girls are less than 5 years old,neutral,entailment,22.22%,false_entailment,False
+Closeup of an elderly woman walking across a street with her male companion.,A man helps a woman cross the street.,neutral,entailment,28.57%,false_entailment,False
+Two men wearing brown hats are doing work on a yellow house.,Two men are hitchhiking to New York.,contradiction,neutral,42.86%,other,False
+A man and woman and two small children are sitting in the floor with wrapped Christmas presents.,The presents have all been opened.,contradiction,neutral,16.67%,"low_overlap, quantifier",False
+A man and woman and two small children are sitting in the floor with wrapped Christmas presents.,Everyone in the photo are related.,neutral,contradiction,50.00%,other,False
+A group of young women wearing black dresses stand in a row with three of them holding bouquets.,A group of women with flowers standing in a circle.,contradiction,entailment,66.67%,missed_contradiction,False
+"A group of six people, men and women, hold up a pole in the middle of a forest while another woman monitors this action.",The woman monitors this action closely.,neutral,entailment,66.67%,"negation, false_entailment",True
+"Several people are walking on a street and there is a large, blue crane towering and leaning against a building.","They are walking rapidly away from a crane, which looks like it might tip over.",neutral,contradiction,20.00%,"long_hypothesis, quantifier",False
+A young boy slides into home plate while playing little league baseball.,Children at waterpark splashing on hot day.,contradiction,neutral,0.00%,low_overlap,False
+A single file line of children walk in front of a building.,Children in the open.,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+"The tiny girl dressed in a butterfly ballet costume, waves her wand near a nutcracker statue.",A small girl dances in the nutcracker.,neutral,entailment,57.14%,false_entailment,False
+A young girl performing the nutcracker.,watched by a group,neutral,contradiction,25.00%,short_hypothesis,False
+A female dancer works on striking a pose.,The woman is practicing modeling.,entailment,neutral,0.00%,"low_overlap, missed_entailment",False
+A man in a uniform is standing on the beach with a camera in his hands.,Coast guard records sound waves for their youtube page.,contradiction,neutral,0.00%,low_overlap,False
+A man in a uniform is standing on the beach with a camera in his hands.,Bob was told the circus would be more fun.,contradiction,neutral,11.11%,low_overlap,False
+"A young girl sitting on a white comforter on a bed covered with clothing, holding a yellow stuffed duck.",The clothes on the comforter are covering a big red stain.,neutral,contradiction,30.00%,other,False
+A welder is working outside by some concrete ruble,A person works on some concrete,neutral,entailment,50.00%,"quantifier, false_entailment",False
+Three hikers are hiking in a mountain filled with trees and snow.,the boy liked cowboys,contradiction,neutral,0.00%,"negation, low_overlap, short_hypothesis",True
+Three hikers are hiking in a mountain filled with trees and snow.,they are girls there too,neutral,contradiction,20.00%,negation,True
+A man in an orange shirt looking at his cellphone.,A man realizes he forgot his cellphone.,contradiction,neutral,57.14%,other,False
+a white dog is tugging on a black rope,The black dog pulls the black rope because the dog rolled in charcoal.,contradiction,neutral,33.33%,other,False
+"Three women, two wearing red shirts and one wearing a purple shirt, and a man, wearing a light blue shirt, jump on a basketball court with balls in their hands.",Some people's are playing basketball in basketball court,entailment,neutral,42.86%,"quantifier, missed_entailment",False
+A young girl has her hands in a tub of water with leaves in it.,A girl washes toys outside.,contradiction,neutral,40.00%,other,False
+"A man in a red shirt is sitting at his desk with one leg on the desk, using a computer with two screens set up side by side.",A male is not sitting outside programming his computer.,neutral,contradiction,44.44%,negation,True
+A girl is posing outside.,A girl is taking a picture.,neutral,entailment,60.00%,false_entailment,False
+A girl is feeding a goat.,They are outside.,entailment,neutral,0.00%,"low_overlap, short_hypothesis, missed_entailment",False
+The front of the cafe must remain free of trash if customers are to be enticed to enter.,The doorway to the cafe is littered with trash and debris.,neutral,entailment,40.00%,false_entailment,False
+The front of the cafe must remain free of trash if customers are to be enticed to enter.,The front door is clear of trash.,entailment,contradiction,42.86%,false_contradiction,False
+A woman with blond-hair is sitting at a table and talking to a man with glasses.,A blonde woman sits with her legs crossed.,neutral,contradiction,37.50%,other,False
+Two monks are visiting a big city.,The monks are dressed in their robes enjoying the big city.,entailment,neutral,40.00%,missed_entailment,False
+A motor-cross rider in red splashes through mud and rain with his motorcycle.,A man enjoys the outdoors on a rainy day.,neutral,entailment,12.50%,"low_overlap, false_entailment",False
+Man wearing a mask of an old man.,A man wears a green mask that turns him into a superhero.,contradiction,neutral,30.00%,other,False
+older men talking and standing around.,The older men are visiting with each other.,entailment,neutral,25.00%,"quantifier, missed_entailment",False
+A woman in a blue tank-top rides a blue bicycle in front of a crowd of meandering pedestrians.,A woman narrowly avoids hitting some pedestrians,neutral,contradiction,28.57%,quantifier,False
+A couple is a standing together the woman is adjusting a flower on the man's lapel and they are dressed in wedding apparel.,People are going to a wedding.,entailment,neutral,33.33%,missed_entailment,False
+"A young boy in a Cookie Monster t-shirt sits on the ground on a fall day, holding a fallen leaf in his hand as an expression of joy lights up on his face.",A young boy is playing in a pile of leaves.,entailment,neutral,55.56%,missed_entailment,False
+Man walking in front of Queen and Portland Lofts and Condominiums.,A person is walking outside.,neutral,entailment,20.00%,false_entailment,False
+"Three sisters, barefoot in pink dresses and who range in age from preschool to teenager are pictured on a beach as they look out at the Ocean.","Three sisters, barefoot in pretty pink dresses and who range in age from preschool to teenager",entailment,neutral,93.33%,"high_overlap, long_hypothesis, missed_entailment",False
+"Three sisters, barefoot in pink dresses and who range in age from preschool to teenager are pictured on a beach as they look out at the Ocean.","Three sisters, barefoot in pink dresses and who range in age from preschool to 90",contradiction,neutral,92.86%,"high_overlap, long_hypothesis",False
+A woman in a yellow dress transporting picked food from the fields to wherever it may need to go.,A woman transports her crops from the fields,entailment,neutral,62.50%,missed_entailment,False
+A person performing a snowboarding trick on a high mountain.,A young man is picking up his girlfriend for a date.,contradiction,neutral,10.00%,"negation, low_overlap",True
+A person performing a snowboarding trick on a high mountain.,A human being is snowboarding and doing tricks.,neutral,entailment,25.00%,"negation, false_entailment",True
+A reson is in a blue canoe in front of some plants.,a blue canoe inside of some plants,contradiction,entailment,71.43%,"negation, high_overlap, quantifier, missed_contradiction",True
+A bunch of people are walking in a crowded area.,A bunch of people are walking in a mall.,neutral,contradiction,87.50%,high_overlap,False
+A bunch of people are walking in a crowded area.,A bunch of people are walking in a field.,neutral,contradiction,87.50%,high_overlap,False
+Man with mustache plays violin.,The man is serenading a couple at a restaurant.,neutral,contradiction,12.50%,low_overlap,False
+"Two black dogs on a snow covered ground, the ground appears blue in the background, one dog is jumping with feet off the ground.",The temperature is below zero.,neutral,contradiction,40.00%,negation,True
+A man punting a football as fans from the opposing team watch in the background,A man catches a football,contradiction,entailment,75.00%,"high_overlap, missed_contradiction",False
+Several men are sitting around a parking lot.,The people are tailgaiting.,neutral,contradiction,25.00%,"short_hypothesis, quantifier",False
+A person jumps off of a cliff into the water below as others watch.,She was climbing a mountain.,contradiction,neutral,20.00%,other,False
+A male hiker wearing a brown hat is standing next to a triangular monument on the top of a mountain.,A man exercises outdoors.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+People working digging a hole.,There are people covering up a hole that someone is stuck inside of.,contradiction,neutral,15.38%,low_overlap,False
+People working digging a hole.,People are outside digging a hole.,entailment,neutral,66.67%,missed_entailment,False
+A man is looking affected by results from his poker game.,The man lost the game,neutral,contradiction,25.00%,other,False
+"Four young people stand in a circle conversing, while a man in white button-down shirt, coral colored pants and green hand bandage stands to the side.",The man is excluded from the conversation,entailment,contradiction,33.33%,false_contradiction,False
+A middle-aged woman pretends to be a DJ as younger people point.,A woman is a DJ for a party in a submarine.,contradiction,neutral,37.50%,other,False
+A young woman wearing a black shirt and black shorts jumps in the air at the beach.,A women exercising at the beach.,neutral,entailment,66.67%,false_entailment,False
+"A young male child, wearing khaki pants and a red striped polo shirt, sitting on a steel slide in a public playground.",A young child playing outdoors.,neutral,entailment,40.00%,false_entailment,False
+A woman wearing a pink dress with gold around the midsection is standing in between two rows of people at a banquet.,A women in in a room that has food.,neutral,entailment,28.57%,false_entailment,False
+A bride wearing her bridal gown is taking pictures with her colorful wedding bouquet in front of cows.,A bride is taking pictures at a barn.,entailment,neutral,71.43%,"high_overlap, missed_entailment",False
+A man smiles while he holds a newborn in a church pew.,Someone holding their baby is smiling while sitting down.,entailment,neutral,11.11%,"low_overlap, missed_entailment",False
+A brown dog is trying to retrive his orange ball that has fallen in a dirt hole.,A dog is trying to get his toy back.,entailment,neutral,66.67%,missed_entailment,False
+A young girl in a pretty pink and white blouse and shorts is participating in a soccer game with other children.,A girl is running towards the camera kicking a soccer ball away from other kids.,neutral,contradiction,35.71%,long_hypothesis,False
+A young man is pushing a lawn mower to mow the grass.,A guy rides a lawn mower in the grass.,contradiction,entailment,62.50%,missed_contradiction,False
+"Six children at a table with a green tablecloth, five female, one male, looking at the camera, plates and condiments at the table, two empty chairs, and red roses in the background",The kids all have food on their plates.,neutral,contradiction,12.50%,"low_overlap, quantifier",False
+"Six children at a table with a green tablecloth, five female, one male, looking at the camera, plates and condiments at the table, two empty chairs, and red roses in the background",Kids are sitting in six of the eight chairs.,entailment,contradiction,33.33%,false_contradiction,False
+A person with an electric drill doing something to a toy animal.,The toy is drilling a person with electricity.,contradiction,entailment,50.00%,missed_contradiction,False
+Several people wait to checkout inside a store with a warehouse looking ceiling.,home depot is making everybody wait for no reason,neutral,contradiction,11.11%,"negation, low_overlap, quantifier",True
+A group of women wearing bikinis are playing beach volleyball.,Women play volleyball fully covered.,contradiction,neutral,20.00%,other,False
+A man sweeping in the street.,A man is using his vaccuum to clean the street.,contradiction,neutral,40.00%,other,False
+"Male in brown leather jacket and black slacks, looking down at his phone, leaning against a brown painted box.","Male in brown leather jacket and tight black slacks, looking down at his phone",entailment,neutral,85.71%,"high_overlap, missed_entailment",False
+"Woman in a dress standing in front of a line of a clothing line, with clothes hanging on the line.",The woman is wearing all denim.,neutral,contradiction,33.33%,quantifier,False
+Excavation of the ruins of a ancient temple.,People line up at the temple.,contradiction,neutral,33.33%,other,False
+"A child, wearing a tie, jumps off steps.",A child is playing.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+A black dog holding an orange object in the water.,A dog is trying to peel an orange in the water.,contradiction,neutral,63.64%,other,False
+"A man in a pink shirt is stealing an old couples bike, the possibility he is a loan shark collecting his dues are high.",The couple looks on as their bike gets stolen.,neutral,entailment,11.11%,"low_overlap, false_entailment",False
+"A man in a pink shirt is stealing an old couples bike, the possibility he is a loan shark collecting his dues are high.",A couple is giving a man a bike as a gift.,contradiction,neutral,37.50%,other,False
+A smiling woman is playing the violin in front of a turquoise background.,A woman is sitting and playing the violin.,entailment,neutral,62.50%,missed_entailment,False
+"Two men, both have glasses, are wearing striped shirts are in the kitchen preparing a meal and washing up.",Two men are talking as their wives make dinner in the kitchen.,contradiction,neutral,33.33%,other,False
+Four people in emergency suits and helmets spray water from behind a cement wall.,Fire fighters are battling a fire safely behind a cement wall.,neutral,contradiction,44.44%,other,False
+A sports match is taking place between one team wearing the colors red and white and another team sporting the colors black and blue.,The two teams are wearing different colors.,entailment,contradiction,28.57%,"negation, false_contradiction",True
+A female basketball player dribbling down court.,A basketball player is destroying the ball.,neutral,contradiction,42.86%,other,False
+A man wearing a black balloon animal shirt is making a circle out of balloons.,The man knows how to make animals out of balloons.,neutral,entailment,40.00%,"negation, false_entailment",True
+A goalie is watching the action during a soccer game.,The goalie is sitting in the highest bench of the stadium.,neutral,contradiction,33.33%,other,False
+A goalie is watching the action during a soccer game.,The goalie is standing by the net as the soccer game takes place.,entailment,neutral,36.36%,missed_entailment,False
+Indian women playing musical chairs with white woman.,indian women playing musical chairs with white woman in out door,entailment,neutral,63.64%,missed_entailment,False
+A motorcycle races.,A bike is going fast.,neutral,entailment,20.00%,false_entailment,False
+"Two fencers dressed in the sport's traditional white suit and protective mask, practice their dueling.",two people slash violently at each other,neutral,contradiction,14.29%,"low_overlap, quantifier",False
+Two women in bathing suits climb rock piles by the ocean.,Women in dresses climb lobster piles.,contradiction,neutral,50.00%,other,False
+Several people wearing foil crowns gathered around a table eating.,A group of people are filling their belly with food.,entailment,neutral,20.00%,"quantifier, missed_entailment",False
+A child turning a crank with benches behind him.,The child is playing with a jack-in-the-box in the park.,neutral,contradiction,33.33%,other,False
+A young woman sits crosslegged beside her purse on the grass among a crowd of dogs.,The dogs are standing around a crosslegged woman on the grass.,entailment,contradiction,50.00%,false_contradiction,False
+A surfer wearing a red shirt takes on a huge blue wave.,Surfer wipes out on large wave.,contradiction,neutral,50.00%,other,False
+A young child is enjoying the water and rock scenery with their dog.,The child and dog are hoping for some ice cream later.,neutral,contradiction,27.27%,quantifier,False
+A man is cooking pies in the oven.,The man cooking has oven mits on.,neutral,entailment,42.86%,false_entailment,False
+A woman is tugging on a white sheet and laughing,The woman is changing the sheets on her bed.,neutral,contradiction,37.50%,other,False
+A woman is tugging on a white sheet and laughing,The woman is trying on a new dress.,contradiction,neutral,50.00%,other,False
+There is not an image here.,There is only a single color displayed instead of an image.,neutral,entailment,27.27%,"negation, false_entailment",True
+A happy little girl rides on the merry-go-round.,the girl rode the horse on the ride,neutral,contradiction,50.00%,other,False
+The woman in the blue skirt is sleeping on a cardboard box under a picture of Mary and baby Jesus.,A homeless woman sleeps under the protective gaze of the Blessed Mother.,entailment,neutral,45.45%,missed_entailment,False
+There are three colorful boats with a person sitting in the middle one.,There is a dance party on the boat.,contradiction,neutral,37.50%,other,False
+Two men with fake mustaches are dressed like archaeologist explorers.,Two actors dress to play a part in a neighborhood theater play.,neutral,contradiction,9.09%,low_overlap,False
+A blond woman is holding 2 golf balls while reaching down into a golf hole.,The blonde woman is playing golf.,neutral,entailment,33.33%,false_entailment,False
+Two dogs shaking themselves dry on the sand.,Two dogs shake off water to get dry.,entailment,neutral,25.00%,missed_entailment,False
+A man reading the paper at a cafe.,A man reading the paper while drinking cafe.,entailment,neutral,75.00%,"high_overlap, missed_entailment",False
+A man reading the paper at a cafe.,A man starring at a piece of paper.,entailment,neutral,42.86%,missed_entailment,False
+A police officer standing on a train.,A cop is handcuffing someone.,neutral,contradiction,20.00%,other,False
+A brown dog with a blue muzzle is running on green grass.,A dog is wearing a green muzzle on blue grass.,contradiction,entailment,88.89%,"high_overlap, missed_contradiction",False
+A male construction worker hammers a nail.,A construction worker drives the nail into the kitchen wall.,neutral,contradiction,33.33%,other,False
+A male construction worker hammers a nail.,A construction worker drives into a nail.,entailment,contradiction,66.67%,false_contradiction,False
+Water polo swimmers competing for a loose ball.,A group of water polo swimmers swimming together in the pool.,entailment,neutral,36.36%,missed_entailment,False
+A girl in a flower dress is running on sand.,The girl is wearing a green striped dress.,contradiction,neutral,37.50%,other,False
+"Male volleyball players in red attempt to score on the other team, lighter red.",Volleyball players in red are beating the other team.,neutral,entailment,66.67%,false_entailment,False
+"There is a woman throwing daggers at a target, which is a carrot.",A woman with athletic ability is targeting carrots with blades.,neutral,entailment,33.33%,false_entailment,False
+a group of people riding bikes in a marathon as people line the street.,The people riding bikes are running from the police.,contradiction,neutral,50.00%,other,False
+A person on a boat by the shore.,He is sleeping on the boat.,neutral,contradiction,33.33%,other,False
+Two boys in green and white uniforms play basketball with two boys in blue and white uniforms.,Two different teams are playing basketball.,entailment,neutral,16.67%,"low_overlap, missed_entailment",False
+A Korean gentlemen kicks up his leg.,A person is dancing.,neutral,contradiction,25.00%,short_hypothesis,False
+A Korean gentlemen kicks up his leg.,A person stands on two feet.,contradiction,entailment,16.67%,"low_overlap, missed_contradiction",False
+Graffiti on the side of an Asian warehouse.,Letters on a building.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+"A brunette baby wearing a red and gray striped shirt, jeans, and a bib with fruit characters on it is sitting on a decorative blanket.",Fruit characters decorate this child's bib,entailment,neutral,50.00%,missed_entailment,False
+A person is wearing a helmet and protective clothing while riding a four-wheeled vehicle.,The person is wearing black.,neutral,contradiction,60.00%,other,False
+Three hockey players are in the middle of a play.,the bird is red,contradiction,neutral,25.00%,short_hypothesis,False
+A large man dressed in black on a street corner by a red brick building.,A man got shot on the street corner.,contradiction,neutral,50.00%,other,False
+An audience cheers at a concert.,An audience making noise at a Weezer concert.,neutral,entailment,62.50%,"negation, false_entailment",True
+"A girl dressed in a pink shirt, jeans, and flip-flops sitting down playing with a lollipop machine.",A person in a shirt,neutral,entailment,50.00%,false_entailment,False
+A boy with a basketballs glowers at the camera.,The boy is smiling,contradiction,neutral,50.00%,short_hypothesis,False
+A boy with a basketballs glowers at the camera.,The boy scowls,entailment,contradiction,66.67%,"short_hypothesis, false_contradiction",False
+A man wearing a white jacket and pink hat is speaking into a microphone while raising one arm above his head.,The man is making the crowd laugh.,neutral,contradiction,33.33%,other,False
+4 people are lying down stacked on top of one another on a white sheet placed on the ground.,4 people piled up on each other on top of a white sheet.,entailment,contradiction,58.33%,"negation, quantifier, false_contradiction",True
+A jockey in blue gallops a chestnut horse on a dirt track past a wooden fence.,A jockey races his horse,neutral,entailment,60.00%,false_entailment,False
+A man in a gray sweatshirt and blue jeans is pulling on a rope while a guy in a white shirt and black jeans watches him.,the two men were pulling on the rope,contradiction,entailment,42.86%,missed_contradiction,False
+A man in a gray sweatshirt and blue jeans is pulling on a rope while a guy in a white shirt and black jeans watches him.,the man in the ray sweatshirt was pulling on a rope,entailment,contradiction,70.00%,false_contradiction,False
+Riot police are standing in the background while a young man with a red scarf covering his face is walking.,there was a riot,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+A young woman tennis player dressed in black carries many tennis balls on her racket.,Ayoung woman dressed in black to play tenni.s,entailment,neutral,50.00%,"quantifier, missed_entailment",False
+"Boy, of age approximately 10 years old, lunging into pristine pool on hot summer day.",The boy is at a country club with his parents.,neutral,contradiction,0.00%,low_overlap,False
+Sheep farmers are crouching and preparing to feed their animals as the sheepdog watches closely by.,Farmers prepare to feed their animals in a large field.,entailment,neutral,50.00%,missed_entailment,False
+Two men standing near a metal structure in front of a brick wall.,Men stand in line at a water fountain in front of a brick building.,neutral,contradiction,50.00%,other,False
+"A man, with a green cloth over his face, rests with his arms crossed beside a tan wall.",The man is covering his face and taking a break.,entailment,neutral,20.00%,missed_entailment,False
+"A man, with a green cloth over his face, rests with his arms crossed beside a tan wall.",The man is at the rodeo watching bull riding.,neutral,contradiction,0.00%,low_overlap,False
+"The horses pull the carriage, holding people and a dog, through the rain.",Horses ride in a carriage pulled by a dog.,contradiction,entailment,25.00%,missed_contradiction,False
+A badminton player from china is sprawled out on the badminton court with his racket close by.,A badminton player is taking a nap.,neutral,contradiction,66.67%,other,False
+Row of plastic horses that form a childrens ride with one child riding.,one child is on a marry go round,neutral,contradiction,37.50%,other,False
+Row of plastic horses that form a childrens ride with one child riding.,he is riding the ride with friends,contradiction,neutral,28.57%,other,False
+Two young men in unusual clothing are jumping in a gym.,The two men are freinds,neutral,entailment,60.00%,false_entailment,False
+"A little girl wearing a pink, yellow and white bathing suit, gets wet from a splash of water.",A girl wears a suit to work.,contradiction,neutral,33.33%,other,False
+A boy in a blue shirt looks away from the camera as a girl in a pink and orange bathing suit stares into the camera in front of an RV.,A boy looks into the camera while a girl looks away from he camera.,contradiction,entailment,75.00%,"high_overlap, missed_contradiction",False
+A man with glasses and a Hawaiian shirt is standing next to a dog while another man with a blue hat looks at them from the back.,"Two men are following the actions of a dog, one stands next to the dog.",neutral,entailment,28.57%,"negation, long_hypothesis, false_entailment",True
+A man wearing a cap and a black wetsuit on a rocky coast lifts a large sack with three sacks in front of him with another man and a small yellow boat in the background.,A man unloading a boat.,neutral,entailment,50.00%,"negation, false_entailment",True
+A girl in a field with a yellow scarf.,The girl has a red shirt on.,neutral,contradiction,28.57%,other,False
+The person in black T-shirt is sitting.,The man is attending a concert.,neutral,contradiction,33.33%,other,False
+girl sitting in fire for a show,The girl is a performer for the show.,entailment,neutral,42.86%,missed_entailment,False
+Several people stopped by the side of the road are watching what is happening in the woods.,Women are gossiping about a blowfish,contradiction,neutral,16.67%,"low_overlap, quantifier",False
+Several people stopped by the side of the road are watching what is happening in the woods.,People are talking to eachother,contradiction,neutral,40.00%,quantifier,False
+A man is carrying a child while holding a red and blue umbrella.,Two humans are outside.,neutral,entailment,0.00%,"low_overlap, short_hypothesis, false_entailment",False
+Two men and a woman finishing a meal and drinks.,Some people eating a meal.,entailment,contradiction,20.00%,"quantifier, false_contradiction",False
+"Woman driving in a red convertible with another girl in the passenger seat and a guy in a suit in the backseat, driving past a group of people.",The convertible splashed through a puddle of water that soaked the other group of people.,neutral,contradiction,46.15%,"negation, long_hypothesis",True
+Two wrestlers jump in a ring while an official watches.,Two wrestlers were just tagged in on a tag team match.,entailment,neutral,36.36%,missed_entailment,False
+A girl prepares herself for the swim meet.,The girl has swam before.,entailment,neutral,40.00%,missed_entailment,False
+An Asian man is cooking food.,The man is in a kitchen.,neutral,entailment,33.33%,false_entailment,False
+"A man dressed in a bronze suit, wearing bronze colored glasses, is accompanied with a bronze old fashion movie camera, motions taking a movie.",A man is filming a movie.,neutral,entailment,80.00%,"high_overlap, false_entailment",False
+"The baseball player wearing the ""Irish"" uniform prepares to throw the ball to his teammate as the umpire watches closely.",Two baseball players practicing with an umpire watching.,entailment,neutral,25.00%,missed_entailment,False
+Two oriental lizards are fighting for dominance in a small pond,Two oriental snakes are fighting for dominance in a small pond,contradiction,entailment,90.91%,"high_overlap, missed_contradiction",False
+A boy poses in karate form and uniform.,A karate student poses in his gi,entailment,neutral,57.14%,missed_entailment,False
+"The young girl wearing a pink shirt is putting a box, with a drawn face and bow, on a shelf along with other food.",a young girl putting away her toys,neutral,contradiction,57.14%,other,False
+A baseball player sliding into home as the opposing team's catcher awaits the baseball for the out.,The catcher is holding a bat.,contradiction,neutral,50.00%,other,False
+A baseball player sliding into home as the opposing team's catcher awaits the baseball for the out.,A player is hoping to score a run.,entailment,neutral,28.57%,missed_entailment,False
+Two small children are gathering water from a large container.,Two kids are collecting water from a stream.,contradiction,neutral,62.50%,other,False
+Two small children are gathering water from a large container.,Two kids are getting a drink of water.,neutral,entailment,37.50%,false_entailment,False
+A man is singing on stage with his fingers in a stuffed bear's nose.,The man on stage singing with his fingers in a bear's nose is mute.,neutral,contradiction,78.57%,"negation, high_overlap",True
+"Two dogs, one lying down, play in a yard.",They are going to run away together.,contradiction,neutral,0.00%,low_overlap,False
+A red-haired clown cries streams of tears in a white hat on stage.,The clown is very upset.,entailment,neutral,20.00%,missed_entailment,False
+A red-haired clown cries streams of tears in a white hat on stage.,The clown is having a fit in front the the children.,neutral,contradiction,33.33%,other,False
+A woman and man are cutting a large cake.,Two newly weds are cutting their wedding cake.,entailment,neutral,37.50%,missed_entailment,False
+"Three young men in blue jeans are gathered inside a wood-paneled room, one of them handling a crossbow.",four young men get ready to go hunting in a wooden room,contradiction,neutral,33.33%,other,False
+"A middle-aged male wearing a baseball cap, a shirt inscribed orange county traders and white towel tucked under his belt and preparing a meal in hibachi style.",The man is folding clothing.,contradiction,entailment,0.00%,"low_overlap, missed_contradiction",False
+A puppet show consisting of humans standing on tall sticks.,How the puppet shows work.,entailment,neutral,20.00%,missed_entailment,False
+The boy jumps into the blue pool.,There is a boy outside.,neutral,entailment,20.00%,false_entailment,False
+"A man wearing a hat, glasses and a painted mustache standing in a crowd of Asian people holding up a stick.","Man in a straw hat and glasses, raising a cane into the air, surrounded by a crowd.",neutral,contradiction,26.67%,long_hypothesis,False
+A woman is sitting in a chair filling out some paperwork.,A woman looks over some forms.,neutral,entailment,50.00%,"quantifier, false_entailment",False
+A woman with red-hair swings a pillow and laughs.,A woman fluffs a pillow,neutral,contradiction,75.00%,high_overlap,False
+A woman with red-hair swings a pillow and laughs.,A woman makes her bed comfortable,contradiction,neutral,33.33%,other,False
+Two people sit on a bench leaned against a building with writing on it.,Tow people are resting their backs against a bench.,entailment,neutral,33.33%,missed_entailment,False
+Two people watch TV from over a white ledge.,A large family is watching a movie.,contradiction,neutral,16.67%,low_overlap,False
+One football player wearing an orange jersey and one wearing a white jersey are set at the starting line.,Two players from opppsing teams face off.,entailment,neutral,0.00%,"low_overlap, missed_entailment",False
+A dark-skinned man smoking a cigarette near a green trashcan.,Near the trashcan the man stood and smoked,entailment,neutral,28.57%,missed_entailment,False
+A woman in black framed glasses peruses a photo album while sitting in a red wicker chair.,A blind woman sits in a chair.,contradiction,neutral,66.67%,other,False
+A young man in front of a grill laughs while pointing at something to his left.,A young man is in front of a girll,entailment,neutral,75.00%,"high_overlap, missed_entailment",False
+A young child sits on the floor and leans against a map to eat.,The child is eating a sandwhich.,neutral,contradiction,50.00%,other,False
+images are missing images are missing images are missing images are missing images are missing images are missing,The images were deleted.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+A young girl in a pink coat erasing words on a chalkboard sign.,A little girl is cleaning a chalkboard.,entailment,contradiction,33.33%,false_contradiction,False
+"As part of a manicure, a person has their nails filed to the proper length and shape.",A woman has her nails filed for a manicure.,entailment,neutral,50.00%,missed_entailment,False
+A woman in a purple sweater has an odd look on her face.,A woman in a purple sweater is getting her hair done,neutral,contradiction,60.00%,other,False
+A white dog is walking on a rocky hillside.,A dog walks over large rocks.,neutral,entailment,33.33%,false_entailment,False
+A lady rows a canoe filled with things.,The woman is unpacking items from her boat.,contradiction,neutral,0.00%,"negation, low_overlap",True
+A lady rows a canoe filled with things.,A woman rows a small boat loaded with items.,entailment,neutral,37.50%,"negation, missed_entailment",True
+Two cars parked on the side of a street with seven people doing different tasks on the sidewalk.,seven people are trying to move a car off the sidewalk.,contradiction,neutral,45.45%,other,False
+A gentleman smiling and showing his reflective sunglasses.,A gentleman smiling and showing his reflective sunglasses to others.,entailment,neutral,70.00%,missed_entailment,False
+A gentleman smiling and showing his reflective sunglasses.,A gentlemen sitting in a chair looking out a window.,neutral,contradiction,12.50%,low_overlap,False
+"Two young man are getting ready for a game of pool on a purple pool table, with another young man in the background, holding a drink.",two men gamble,neutral,contradiction,33.33%,"negation, short_hypothesis",True
+A smiling man wearing a football jersey is carrying a stack of video games.,The man totes the video games,entailment,neutral,40.00%,missed_entailment,False
+A man wearing a plaid shirt and brown apron is standing in front of an open fire.,The man is standing in the rain.,contradiction,neutral,66.67%,other,False
+A man wearing a plaid shirt and brown apron is standing in front of an open fire.,The fire is burning near the man.,entailment,neutral,16.67%,"low_overlap, missed_entailment",False
+The dude at the party is raging!,A man is yelling at a party.,neutral,entailment,33.33%,false_entailment,False
+"A man with a ""Backyard Babies"" has a black box in front of him and a crowd on chairs behind him.",The black box is shaped like a ball.,contradiction,neutral,37.50%,other,False
+"A man with a ""Backyard Babies"" has a black box in front of him and a crowd on chairs behind him.",The man is being watched.,neutral,entailment,20.00%,false_entailment,False
+The man and woman are both smiling.,A guy and a lady are standing near each other.,neutral,entailment,22.22%,"quantifier, false_entailment",False
+a man with a tattoo on his arm cooking something in a frying pan.,A man is making ice cream.,contradiction,neutral,33.33%,other,False
+A soccer team dressed in all black are gathered together on a soccer field where it is cold enough to see one's own breath.,Some players are playing soccer in ground,entailment,neutral,42.86%,"negation, quantifier, missed_entailment",True
+Two children plus two dachshunds get ready for a sleepover.,The dachshunds are dogs,entailment,contradiction,25.00%,"short_hypothesis, false_contradiction",False
+Two children plus two dachshunds get ready for a sleepover.,The children are taking a nap,contradiction,entailment,33.33%,missed_contradiction,False
+"Though frail looking, this turbaned woman is able to carry a large pot and a bound bundle of long sticks.",An old person carrying a pot,neutral,entailment,33.33%,false_entailment,False
+"A girl wearing a red shirt and jeans is sitting in a rocking chair at a cluttered desk, while another girl wearing a black t-shirt and jogging pants is sitting on the floor writing on a piece of paper with other papers arranged around her.",two girls talking about boys,neutral,contradiction,0.00%,"negation, low_overlap",True
+A man riding a dirt bike on a racetrack.,A man is riding a dirt bike in a race at a track.,entailment,neutral,50.00%,missed_entailment,False
+Two women in bathing suits walks across the sand.,Two enemies are walking across the sand.,neutral,contradiction,57.14%,other,False
+Two construction workers complete a task near the ground while a third worker looks on.,Workers pull together to get the project completed.,entailment,neutral,25.00%,missed_entailment,False
+Two construction workers complete a task near the ground while a third worker looks on.,Workers are on their way home.,contradiction,neutral,16.67%,low_overlap,False
+The elaborate Jesus shrine is being carried in a parade.,A bhudda shrine is being lifted through a crowd of people.,contradiction,neutral,40.00%,other,False
+"Groups of people are sitting on a curb and the others are walking, a young woman is pretending to be a stone statue of an angel and a woman has a little boy on her shoulders.",groups of people are imatating themselves,contradiction,entailment,66.67%,missed_contradiction,False
+Man with dreadlocks on a skateboard in the middle of the street.,The man with dreadlocks does skateboard tricks in the middle of the road.,entailment,neutral,72.73%,"high_overlap, missed_entailment",False
+"Many people take pictures as a blond woman wearing a cover-up only costume holds a sign proclaiming ""Photographers Not Predators"" on a pier.",Many people's take photo with a yellow woman,neutral,contradiction,50.00%,"negation, quantifier",True
+Here are a bunch of people enjoying dinner and chatting.,Our group is enjoying an early brunch.,contradiction,neutral,14.29%,low_overlap,False
+A man in a black shirt sits next to an old woman in a pink shirt on a train.,A man is sitting on the train talking to a woman.,entailment,neutral,40.00%,missed_entailment,False
+"A man is using a long lens on a camera to take a closeup of a colorful, chubby man on a bicycle with a large maroon and white umbrella attached to it.",A man taking a picture of someone.,entailment,neutral,50.00%,missed_entailment,False
+Two dogs play with tennis ball in field.,The dogs are romping across the field.,entailment,neutral,33.33%,missed_entailment,False
+A man in a black jacket is talking with two blond women as they stand near a car in the sunshine.,It is a nice day outside.,neutral,entailment,33.33%,false_entailment,False
+Boy standing in line in a grocery store with his items on the conveyor belt.,He is waiting to pay.,entailment,neutral,0.00%,"low_overlap, missed_entailment",False
+Two pedestrians walking past a sidewalk cafe on a cobblestone street.,two pedestrians walk on a cobblestone road a long way away from a cafe,contradiction,neutral,50.00%,other,False
+The side of a building next to a church is painted with a brightly colored Coca-Cola sign.,There is a Coca-Cola sign on a church next to a building.,contradiction,entailment,60.00%,missed_contradiction,False
+A toddler in a denim hats plays in a tire.,A toddler playing in a tire outside.,entailment,neutral,50.00%,missed_entailment,False
+The little boy is in the park near a duck.,The boy fell in the water on the duck.,contradiction,neutral,57.14%,other,False
+Men and women in swimsuits hangout on rocks above water.,The rocks hangout above the water.,contradiction,entailment,80.00%,"high_overlap, missed_contradiction",False
+The baseball player is running after the ball.,The player dropped the ball.,neutral,contradiction,75.00%,high_overlap,False
+The baseball player is running after the ball.,The person is playing a game.,entailment,neutral,33.33%,missed_entailment,False
+A man in a long-sleeved blue shirt and blue jeans has set up some name trains on the ground looking to sell his wares.,A man is wearing a large blue shirt.,neutral,contradiction,42.86%,quantifier,False
+A blue race car slides off the racetrack and hits white median bumpers with its rear.,The automobile lost control and hit something.,entailment,neutral,28.57%,missed_entailment,False
+A group of people are standing in front of parked bicycles on a corner with various carrying bags on the ground.,The group of people are sitting around having a picnic.,neutral,contradiction,60.00%,other,False
+Several young people standing next to ten-speed bikes.,Several young people are standing next to motorcycles.,contradiction,entailment,75.00%,"high_overlap, quantifier, missed_contradiction",False
+"A group of teenagers are standing in front of some tents, most of them are holding skateboards.",A group of teenagers are holding something,neutral,entailment,85.71%,"high_overlap, quantifier, false_entailment",False
+A man in jeans and a white shirt is standing near a rock formation with his back to the camera.,"A man is on top of a rock formation, taking in the view.",neutral,contradiction,50.00%,other,False
+A man in a hat stands in front of a brick wall.,A man in a hat is outside.,neutral,entailment,66.67%,false_entailment,False
+A man cooking food on the stove.,A man is making hot food.,entailment,neutral,33.33%,missed_entailment,False
+Two grownups are waiting for the bus to arrive on a cold day.,They are waiting for the bus to pick them up.,entailment,neutral,60.00%,missed_entailment,False
+A man is throwing a big stick into the water so his two dogs and go fetch it.,Two large dogs are fetching for their master.,entailment,neutral,25.00%,missed_entailment,False
+A person in a green canoe paddles down rapids carrying oars and wearing an orange and black top.,a person on a river paddles a canoe,neutral,entailment,66.67%,"negation, false_entailment",True
+An elder bearded man having a rest in a dilapidated building.,The old man is dozing in the ancient ruin.,contradiction,neutral,25.00%,other,False
+One man is shirtless while the other two men work on construction,Three men are outdoors.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+The boy in the black and red swimsuit is jumping into the water.,The boy in the black and red swimsuit is about to go swimming,entailment,neutral,66.67%,missed_entailment,False
+"An Asian man in colorful robes holds a bell and leans toward a small table, with Buddhist or Hindu decorations on the table and the walls.",An Asian man in colorful light robes holds a bell.,entailment,neutral,80.00%,"high_overlap, missed_entailment",False
+There is a street with buildings and one man in black walking on the side of the road.,The buildings are walking on the street.,contradiction,entailment,66.67%,missed_contradiction,False
+Two men in animal print pajama bottoms sleep on a bed.,Two men are in pajamas.,entailment,contradiction,60.00%,false_contradiction,False
+Two backpackers look at scenic mountains.,Two guys are rock climbers.,neutral,contradiction,20.00%,other,False
+An airplane flying over a fence with a few bystanders watching it as it approaches its landing.,The airplane is flapping its wings on final approach.,contradiction,neutral,22.22%,quantifier,False
+An airplane flying over a fence with a few bystanders watching it as it approaches its landing.,The airplane is heavy,entailment,neutral,25.00%,"short_hypothesis, quantifier, missed_entailment",False
+Boy reading book with company of a rolled over dog.,The child is attending the circus.,contradiction,neutral,0.00%,low_overlap,False
+A guy is standing in front of a toilet with a coffee cup in one hand and a toilet brush in the other.,A man is attempting to brew coffee.,contradiction,neutral,28.57%,other,False
+A guy is standing in front of a toilet with a coffee cup in one hand and a toilet brush in the other.,A man may have created a monster too unwilling to be flushed.,contradiction,neutral,9.09%,low_overlap,False
+This football team wears red shirts and red helmets.,They are outdoors on the field.,neutral,entailment,0.00%,"low_overlap, false_entailment",False
+This football team wears red shirts and red helmets.,They are playing football.,entailment,neutral,0.00%,"low_overlap, short_hypothesis, missed_entailment",False
+"A man in an apron sits at a table in front of a restaurant, while another man crosses the street with a purple gift bag and rolling luggage.","Two men pull luggage across the street, while wearing aprons.",contradiction,entailment,20.00%,"negation, missed_contradiction",True
+Two women and a younger girl laugh and converse in front of a green tent and blue microphone.,Two women and a younger girl joyously laugh,entailment,neutral,87.50%,"high_overlap, missed_entailment",False
+Two entertainers on a stage performing acrobatic moves.,Two entertainers are performing acrobatics in a car.,neutral,contradiction,50.00%,other,False
+"A worried blond-haired baby is sitting inside a large, shiny metal cooking pot that is on top of an electric stove.",A baby being cooked on the stove.,neutral,entailment,57.14%,false_entailment,False
+Young man with a beard is sitting on the edge of the bed reading a manual.,He is learning something.,entailment,neutral,25.00%,"short_hypothesis, missed_entailment",False
+Ski equipment sits alone on a snowy mountain,Skis and boots are outside a ski lodge while the skiers enjoy a hot drink indoors.,neutral,contradiction,13.33%,"negation, low_overlap, long_hypothesis",True
+There are a lot of people in front of a tan building with colorful squares hanging from the top.,Men and women stand in front of a building,entailment,neutral,55.56%,missed_entailment,False
+Two men are standing in front of musical mixing equipment.,There are people indoors.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+Skiiers are walking through the snow near the mountains.,There are people and animals in the snow.,neutral,entailment,25.00%,"negation, false_entailment",True
+A baby with star shades on.,A baby wearing glasses.,entailment,neutral,50.00%,"short_hypothesis, missed_entailment",False
+Two boys standing on top of a diving platform and one captured midair.,Two boys standing bravely on top of a diving platform,entailment,neutral,90.00%,"high_overlap, missed_entailment",False
+The band prepares for the next song.,There are multiple people present.,neutral,entailment,0.00%,"low_overlap, false_entailment",False
+A group of men work on some streetcar rails.,The group of men are fixing the rails.,entailment,neutral,57.14%,"quantifier, missed_entailment",False
+A young boy and girl playing baseball in a grassy field.,kids play t-ball,contradiction,entailment,0.00%,"low_overlap, short_hypothesis, missed_contradiction",False
+An older man indulging in a bottle of amber liquid.,An old man is drinking some amber liquid from a bottle.,entailment,neutral,36.36%,"quantifier, missed_entailment",False
+An Asian man stands behind a makeshift storefront with a handmade yellow poster advertising watch repair.,A man stands by his watch shop.,neutral,entailment,57.14%,false_entailment,False
+A young girl jumping in front of the White House.,Someone is visiting the statue of Liberty.,contradiction,neutral,28.57%,other,False
+A woman pulls a small child in a sled through the snow.,A child makes a snowman.,contradiction,neutral,50.00%,negation,True
+A woman is pulling a child on a sled in the snow.,A child is sitting on a sled.,entailment,contradiction,66.67%,"negation, false_contradiction",True
+"Two white-haired women, both wearing hats, play saxophones while standing in front of a pair of landscape paintings.",Two women make noise.,neutral,entailment,25.00%,"negation, short_hypothesis, false_entailment",True
+"Two white-haired women, both wearing hats, play saxophones while standing in front of a pair of landscape paintings.",Two jazzwomen improvise together.,neutral,contradiction,25.00%,short_hypothesis,False
+A girl jumping on pavement.,A girl outside,neutral,entailment,66.67%,"short_hypothesis, false_entailment",False
+Two women looking at the camera and a man looking away.,A group of people hugging.,neutral,contradiction,20.00%,other,False
+Two men exchange conversation in a crowded place.,Two men exchange conversation in a crowded arena.,entailment,neutral,87.50%,"high_overlap, missed_entailment",False
+The boy wearing the blue hooded top is holding a baby goat in his arms.,The goat jumped into the boys arms.,neutral,contradiction,50.00%,other,False
+The dog is catching a treat.,the dog is looking at the treat,entailment,neutral,50.00%,missed_entailment,False
+The greyhounds are running quickly in this race.,The big greyhounds are running quickly in this race.,entailment,neutral,88.89%,"high_overlap, missed_entailment",False
+"A man with a beard, curly hair and a beard wearing a green shirt and navy blue jacket standing still looking through his red sunglasses.",A man has a walking stick.,neutral,contradiction,40.00%,other,False
+A little blond boy throwing a soapy sponge at his moms car.,A small boy is playing at the park.,contradiction,neutral,37.50%,other,False
+A woman wearing a red hat and black coat.,The woman is asleep.,neutral,contradiction,25.00%,short_hypothesis,False
+A band playing with fans watching.,A band watches the fans play,contradiction,entailment,50.00%,missed_contradiction,False
+Two children in swimming trunks are standing under a water sprinkler while a crowd looks on.,The crowd watches the children play in the sprinkler,entailment,neutral,57.14%,missed_entailment,False
+Two children in swimming trunks are standing under a water sprinkler while a crowd looks on.,They play x-box in the sprinkler,contradiction,neutral,33.33%,other,False
+An Asian woman is looking at the camera while trimming asparagus.,Woman prepares an asparagus casserole.,neutral,entailment,40.00%,false_entailment,False
+A man on a small 4 wheeled vehicle is flying through the air.,The man is on a bike.,contradiction,neutral,83.33%,high_overlap,False
+A baby wearing yellow is pretending to be a doctor while inside a stroller.,A baby is role playing as a professional,entailment,neutral,42.86%,missed_entailment,False
+a woman in green stands with her hands on her hips.,A woman is raising her hands up.,contradiction,entailment,57.14%,missed_contradiction,False
+A rock climber climbs a steep mountain.,a climber is trying to get to the top of the mountain,entailment,neutral,20.00%,missed_entailment,False
+A woman in a blue dress is sweeping the floor in a cobblestone road,The woman sweeps in preparation.,neutral,entailment,60.00%,false_entailment,False
+A man wearing glasses and a dark coat looks at something to the left of the picture.,A man in a dark coat takes a photo.,contradiction,entailment,57.14%,missed_contradiction,False
+A man wearing glasses and a dark coat looks at something to the left of the picture.,A man in a dark coat looks to his side.,entailment,contradiction,66.67%,false_contradiction,False
+A man wearing glasses and a dark coat looks at something to the left of the picture.,A mark in a dark coat looks to someone else.,neutral,entailment,55.56%,false_entailment,False
+A young man moving aside to let a young woman pass by.,A man checks out a woman who passes him.,neutral,entailment,37.50%,false_entailment,False
+Two black dogs running,The two black dogs are running beside each other.,neutral,entailment,44.44%,"quantifier, false_entailment",False
+A woman dressed in a blue long-sleeved shirt and wearing a hairnet.,The woman has something on her head.,neutral,entailment,14.29%,"low_overlap, false_entailment",False
+A scientist with a checkered shirt on is looking into a microscope to learn more about the world.,A scientist is close to a scientific breakthrough.,neutral,entailment,57.14%,false_entailment,False
+A salt-and-pepper-haired man with beard and glasses wearing black sits on the grass.,An elderly bearded man sitting on the grass.,entailment,neutral,50.00%,missed_entailment,False
+A family day at the beach.,There are only families at the beach today.,entailment,contradiction,25.00%,false_contradiction,False
+A family day at the beach.,There are a lot of families at the beach today.,neutral,entailment,30.00%,false_entailment,False
+A man in a black long-sleeved tee-shirt is walking down the street with a cane.,A man walking with a caine.,entailment,contradiction,80.00%,"high_overlap, false_contradiction",False
+Two construction workers in a truck having a conversation.,Two people are outside a truck.,contradiction,entailment,33.33%,missed_contradiction,False
+An elderly man sleeping in a outdoor chair while another woman sits next to him.,Two people are outside.,neutral,entailment,0.00%,"negation, low_overlap, short_hypothesis, false_entailment",True
+Male and female ballerinas dancing together and he is holding her slightly in air.,A man and women exercising,neutral,contradiction,20.00%,other,False
+"A woman with long dark hair is carrying a bag over her shoulder which says ""hot"" in metallic pink letters.","A brunette completes her look with a trendy bag that spells ""HOT"" in flashy pink letters.",entailment,neutral,53.33%,"long_hypothesis, missed_entailment",False
+A young man wearing a bandanna is lifting weights with a barbell.,The man is exercising.,entailment,neutral,50.00%,"short_hypothesis, missed_entailment",False
+The man and the lady are wearing glasses and sitting in red chairs talking to John McCain.,Five people are in a meeting.,contradiction,neutral,33.33%,other,False
+"A man in a dark suit talks with a middle-aged man and woman on a stage in front of a large logo of the letter ""D"" with the numeral five within it.",A couple of people are sitting in a room.,neutral,contradiction,37.50%,other,False
+Man with short hair moves wooden structure.,The man moves the wooden post.,neutral,entailment,60.00%,false_entailment,False
+People getting ready to cut a birthday cake.,they got ready to cut the cake on christmas,neutral,contradiction,33.33%,other,False
+A woman wading through a pool in front of a waterfall.,The woman was sitting on a rubber floating device in the pool.,neutral,contradiction,27.27%,other,False
+A woman wading through a pool in front of a waterfall.,The women was swimming in a pool of chocolate.,contradiction,neutral,44.44%,other,False
+A skater performs a stunt off a cement wall covered in graffiti.,"A skateboarder falling off his board, onto the concrete below.",neutral,contradiction,20.00%,other,False
+A man on a bicycle stops for a rest with his leashed dogs.,The man has three dogs with him.,neutral,entailment,28.57%,false_entailment,False
+A girl with a cigarette in hand and a guy with a green hat wave at the camera.,The girl is smoking a Camel.,neutral,contradiction,50.00%,other,False
+"Cheerleader on top of a cheerleading pyramid, girls are looking up at her one is in the background doing the same cheer.",Young women are competing in a cheerleading competition.,entailment,neutral,50.00%,missed_entailment,False
+A snowboarder jumps high into the air off of a snowy ramp.,Snowboarder decides to put snowshoes on and hop around in the snow.,contradiction,neutral,16.67%,"negation, low_overlap",True
+Two kickboxers compete in front of a live audience.,there is a competetion still going on,entailment,contradiction,14.29%,"low_overlap, false_contradiction",False
+"A man wearing a top-hat, blue plaid pajama pants, a white shirt, and gold embroidered vest stands in front of an American Flag under a colorfully painted street-front, and speaks to a crowd from a microphone.",A man is singing the national anthem,neutral,contradiction,28.57%,other,False
+A young puppy suckles from his mother.,A young puppy lays at it's mothers stomach.,entailment,contradiction,37.50%,false_contradiction,False
+A young puppy suckles from his mother.,The puppy's eyes are still closed.,neutral,contradiction,0.00%,low_overlap,False
+Three people are standing on the dock of a boat looking at something off-camera.,A shark is out of the frame.,neutral,contradiction,42.86%,other,False
+"Three children, two boys and one girl, are standing behind bars with their mouths open like they are screaming.",The children scream as a monster jumps out,neutral,contradiction,0.00%,low_overlap,False
+"Three children, two boys and one girl, are standing behind bars with their mouths open like they are screaming.",They children are protected by the bars,entailment,neutral,42.86%,missed_entailment,False
+Competitive bikers in an inside race cross a line with one biker in blue and white raising his arm.,A race between competitive bikers on an inside track begins as a biker raises his arm.,neutral,entailment,60.00%,"long_hypothesis, false_entailment",False
+A man in a blue shirt and blue jeans rides a dark brown horse with white feet at the rodeo.,the man is black,neutral,contradiction,50.00%,short_hypothesis,False
+Five people wear name tags on a necklace and pose together.,The people are on the subway.,contradiction,neutral,40.00%,other,False
+A man in a tank top holds a metal bar against a wall.,The man is demolishing a house.,neutral,contradiction,33.33%,other,False
+Five adults are sitting on stone steps.,There are five grownups sitting on stone steps.,entailment,neutral,75.00%,"high_overlap, missed_entailment",False
+A greyhound jumps over a chain.,A dog ran away from the racetrack.,neutral,contradiction,14.29%,low_overlap,False
+"A young boy is taking a nap underneath a piece of cardboard that reads, ""Connie Facial Tissues.""",He sleeps under a large blanket,contradiction,neutral,16.67%,low_overlap,False
+"A young boy is taking a nap underneath a piece of cardboard that reads, ""Connie Facial Tissues.""",The cardboard makes for a poor blanket,contradiction,neutral,28.57%,other,False
+A boy in a black swimsuit playing near the water.,A boy is building a sandcastle near the water.,neutral,contradiction,62.50%,other,False
+People cheer as a bicyclist rides his bike off a ramp,People cheer as a stunt rider jumps over a car on a ramp.,neutral,contradiction,36.36%,other,False
+The player from the black team is telling something to the player of the red team.,The two teams are relaxing before the match.,neutral,contradiction,14.29%,low_overlap,False
+The player from the black team is telling something to the player of the red team.,The teams have black or red uniforms.,entailment,neutral,42.86%,missed_entailment,False
+Two men in white suits cheer,The two men in white suits are standing up and pumping their fists in the air.,entailment,contradiction,35.71%,"long_hypothesis, false_contradiction",False
+A woman with an umbrella listens on a mobile phone on the street in front of a graffiti-tagged wall.,A woman is calling for a cab so she wont have to walk in the rain.,contradiction,neutral,26.67%,long_hypothesis,False
+A woman with an umbrella listens on a mobile phone on the street in front of a graffiti-tagged wall.,A person is on the phone outside in the rain.,entailment,neutral,55.56%,missed_entailment,False
+A woman wearing a brown jacket and brown pants is walking her two dogs along the beach as they follow another person.,A man and women take their dogs for a walk on the beach.,neutral,contradiction,33.33%,negation,True
+A young boy showing off a orange and white striped costume with a orange and white joker hat.,The boy is under the age of 18.,neutral,entailment,14.29%,"low_overlap, false_entailment",False
+Two children lined up outside in a grassy field with their arms stretched out to the sides.,Two kids were in a field with their arms down.,contradiction,entailment,70.00%,missed_contradiction,False
+Two children lined up outside in a grassy field with their arms stretched out to the sides.,Two kids were arm in arm in a field.,contradiction,entailment,42.86%,missed_contradiction,False
+Two children lined up outside in a grassy field with their arms stretched out to the sides.,Two kids were running outside with their arms out like airplane wings.,neutral,contradiction,50.00%,other,False
+"Two children, standing among grass, are putting their arms out and are smiling.",Two kids in the park smiling.,entailment,neutral,33.33%,missed_entailment,False
+A man in a suit walks through a train station.,the child was happy`,contradiction,neutral,0.00%,"low_overlap, short_hypothesis",False
+An old man is sitting down in the street.,The old man takes a rest.,neutral,entailment,50.00%,false_entailment,False
+Greyhounds race on a sandy track with the dog in green taking the lead.,Dog in green is winning Greyhound race at track,entailment,neutral,55.56%,missed_entailment,False
+Four people wearing street clothes work on the scalp of a woman in an improvised medical treatment.,The woman is getting a haircut.,contradiction,neutral,50.00%,other,False
+Three women and one man are sitting on a ledge facing away towards a large window.,A group of people are on a balcony.,neutral,entailment,42.86%,false_entailment,False
+A lady in a business suit sits at a desk and types on her keyboard.,the boy liked cowboys,contradiction,neutral,0.00%,"low_overlap, short_hypothesis",False
+Two women are wet while holding hands with a long building and buses in the background.,Women are in the city.,entailment,neutral,80.00%,"high_overlap, missed_entailment",False
+A dog running on grass,A dog is playing outside.,neutral,entailment,40.00%,false_entailment,False
+A man in an orange vest is waiting at a train station.,A man is sitting outside a train station.,neutral,entailment,71.43%,"high_overlap, false_entailment",False
+A man in an orange vest is waiting at a train station.,A man is sitting down on a bench.,neutral,contradiction,42.86%,other,False
+A smiling policewoman holding a blue axe and wearing St. Patrick's Day memorabilia walking in front of assembled onlookers.,A policewoman is participating ina  parade.,entailment,neutral,33.33%,missed_entailment,False
+"Two men, one with a black shirt and the other with a white shirt, are kicking each other without making contact.",Two men are kicking at each other,entailment,contradiction,71.43%,"negation, high_overlap, quantifier, false_contradiction",True
+A man wearing all white is using an orange chainsaw to cut down a thick tree next to his house.,A person in white is cutting down a tree near his home with a saw.,entailment,neutral,46.15%,"long_hypothesis, quantifier, missed_entailment",False
+A man wearing all white is using an orange chainsaw to cut down a thick tree next to his house.,A man is using an ax to chop wood outside of his home.,contradiction,entailment,53.85%,"quantifier, missed_contradiction",False
+A woman hanging the laundry outside.,A woman is putting her clothes out to dry.,entailment,neutral,22.22%,missed_entailment,False
+A batsman is about to swing for a baseball whilst the catcher and referee wait behind him.,Men are playing professional cricket,contradiction,neutral,0.00%,low_overlap,False
+"A woman dressed in a light yellow tank top, white pants, and sunglasses looks to her right as she is drinking a bottle of water.",A woman looks to the side.,entailment,contradiction,66.67%,false_contradiction,False
+"A boy hits a ball, with a bat, outside, while others in the background watch him.",The kid is hitting a baseball.,entailment,neutral,33.33%,missed_entailment,False
+"A boy hits a ball, with a bat, outside, while others in the background watch him.",The kid is playing in a baseball game.,entailment,neutral,37.50%,missed_entailment,False
+"Two professional soccer players compete in a stadium on AstroTurf during a soccer match, and one player is controlling the ball while the other is running after him trying to defend it.",The defending player is doing his best to prevent the offensive player from scoring a goal.,entailment,neutral,35.71%,"long_hypothesis, missed_entailment",False
+"Two professional soccer players compete in a stadium on AstroTurf during a soccer match, and one player is controlling the ball while the other is running after him trying to defend it.",Both of the soccer players want control of the ball.,entailment,neutral,37.50%,missed_entailment,False
+A cleaning women looking into a mall trashcan,The woman found a humean finger.,contradiction,neutral,16.67%,low_overlap,False
+A cleaning women looking into a mall trashcan,The woman is cleaning.,neutral,entailment,0.00%,"low_overlap, short_hypothesis, false_entailment",False
+Two Asian women are next to a table that has food on it.,The women are having a drink together.,neutral,contradiction,42.86%,other,False
+a boy and girl hold hands walking down a railroad track,The boy and girl are arguing.,contradiction,neutral,50.00%,other,False
+"Woman wearing a red sweater, brown slacks and a white hat, rollerblading on the street in front of a yellow building.",A woman is protesting something.,contradiction,neutral,40.00%,other,False
+People walk amongst a traffic jam in a crowded city.,The traffic is halted and people are walking between the cars.,entailment,neutral,20.00%,missed_entailment,False
+Four people stand next to some bikes while one of them points.,Four people are standing and one of them is pointing at an airplane in the sky.,neutral,contradiction,31.25%,"long_hypothesis, quantifier",False
+A man in goggle swimming.,A man on the beach.,contradiction,entailment,40.00%,missed_contradiction,False
+A man in goggle swimming.,A man smiling while swimming in goggles.,entailment,neutral,42.86%,missed_entailment,False
+Young woman celebrates getting a strike during a bowling game.,The young women is outside.,contradiction,entailment,20.00%,missed_contradiction,False
+The view of a man with a shaved head and blue shirt through a chain-linked fence.,A man with a shaved head and a beard behind a chain-linked fence.,entailment,neutral,80.00%,"high_overlap, missed_entailment",False
+The person and the dog are sitting on the yellow canoe.,The man is using the dog as a paddle.,contradiction,neutral,25.00%,negation,True
+The person and the dog are sitting on the yellow canoe.,The canoe is in the water.,neutral,entailment,20.00%,"negation, false_entailment",True
+This young girl's eyes are filled with excitement as she swings in her bright yellow dress.,The girl is wearing black slippers.,neutral,contradiction,0.00%,low_overlap,False
+Black greyhound dog racing down a track.,The dog is in a race.,entailment,neutral,33.33%,missed_entailment,False
+A man and a woman are shopping at a large hardware warehouse store.,A man and woman are outside of a store.,neutral,entailment,75.00%,"high_overlap, false_entailment",False
+"Two women, one walking her dog the other pushing a stroller.",The two women are outside.,entailment,neutral,40.00%,missed_entailment,False
+"Two women, one walking her dog the other pushing a stroller.",There is a snowstorm.,contradiction,neutral,25.00%,"negation, short_hypothesis",True
+A little boy with an orange shirt is playing outside with bubbles.,The boy was given a bubble bath after playing outside.,contradiction,neutral,30.00%,other,False
+A woman dressed in a black shirt with purple bikini bottoms is playing volleyball in a fenced in area.,a woman is playing voleyball,entailment,contradiction,80.00%,"high_overlap, false_contradiction",False
+An African American man getting his haircut by another man.,A Spanish man is cutting another mans hair.,neutral,contradiction,25.00%,negation,True
+People walk in a subway hallway.,The subway is a busy place.,neutral,entailment,33.33%,false_entailment,False
+Members of the military gather around some vehicles at night.,the military surrounds their own vehicles.,neutral,contradiction,33.33%,quantifier,False
+A couch sits broken while a man sits a table behind them.,A man observes the broken furniture nearby,neutral,entailment,42.86%,false_entailment,False
+Young barefoot girl begins to lose balance.,The girl is sitting on the floor.,contradiction,neutral,16.67%,low_overlap,False
+Young barefoot girl begins to lose balance.,The girl is falling onto the concrete.,neutral,contradiction,16.67%,low_overlap,False
+A group of people are standing inside an office,The couple is taking a picture.,contradiction,neutral,16.67%,low_overlap,False
+"A smiling young girl with blond-hair, blue eyes, and a pink shirt, is holding a yellow flower towards the viewer outside.",A joyously smiling young girl with blond-hair,entailment,neutral,71.43%,"high_overlap, missed_entailment",False
+a skateboarder ollies.,Someone is on a board with four wheels.,entailment,neutral,12.50%,"low_overlap, missed_entailment",False
+a skateboarder ollies.,Someone is skateboarding outside.,neutral,entailment,0.00%,"low_overlap, short_hypothesis, false_entailment",False
+a shoeless toddler sleeps in his car seat holding his pacifier.,The toddler is a boy.,entailment,neutral,40.00%,missed_entailment,False
+A group of men with cowboy hats are watching a rodeo.,A group of men are getting ready to ride horses in a rodeo,contradiction,neutral,41.67%,other,False
+A man wearing a suit with a name tag stands reading in front of a microphone as a screen behind him displays a presentation.,"A man with a name tag that reads ""Ben"" is standing in front of a screen.",entailment,neutral,57.14%,"long_hypothesis, missed_entailment",False
+Jet flying low over a field with a woman in the field.,A woman watches a jet fly over her.,neutral,contradiction,57.14%,other,False
+A man in sunglasses and shorts carrying a stick is walking.,A man with a visual impairment is walking.,neutral,entailment,57.14%,false_entailment,False
+"A drummer plays the drums, while wearing a black dress shirt, and black and gray striped tie.",A darkly dressed drummer bangs on the drums.,entailment,neutral,37.50%,missed_entailment,False
+Hiker in blue shirt and red shorts stands on hill near mountain.,The hiker is in the mountains.,neutral,entailment,40.00%,false_entailment,False
+A young woman with a ponytail and her back to the camera is taking a picture of what seems to be some sort of procession.,A girl has time-traveled to the past to take pictures of the first Macy's Thanksgiving Day parade.,contradiction,neutral,26.67%,"long_hypothesis, quantifier",False
+A young woman with a ponytail and her back to the camera is taking a picture of what seems to be some sort of procession.,A girl is taking pictures of a parade.,neutral,entailment,57.14%,"quantifier, false_entailment",False
+A race car driver leaps from a burning car.,A race car driver performing a movie stunt.,neutral,contradiction,57.14%,other,False
+A race car driver leaps from a burning car.,A race car driver escaping danger.,entailment,neutral,66.67%,missed_entailment,False
+"A bridge with green supports leads to a sidewalk lining a row of houses with slanted roofs, a person is visible in the background walking towards the photographer past a bicycle.",The photographer is at a photo shoot in a building.,contradiction,neutral,55.56%,other,False
+A girl in a green jersey top and blue shorts is getting ready to kick the soccer ball near the goal.,a girl wants to score a goal,entailment,neutral,50.00%,missed_entailment,False
+A person is reaching up to touch the middle light fixture hanging from a ceiling.,She is touching the first light,contradiction,neutral,50.00%,other,False
+A line of nine cheerleaders wearing short white skirts and tops with a yellow stripe and blue and white pompoms stand on the center line of a basketball court with spectators in the background.,The women are inside a gymnasium.,entailment,contradiction,33.33%,false_contradiction,False
+"Two horses, one black and one brown, are pulling a man outside.",A man plows his field using horses.,neutral,contradiction,28.57%,other,False
+"Two horses, one black and one brown, are pulling a man outside.",A man is being chased by two horses.,contradiction,neutral,37.50%,other,False
+"An older man wearing a winter coat and jeans stands in front of a large, wheeled flower cart.",The older man has a heavy coat on.,entailment,neutral,50.00%,missed_entailment,False
+"Four people, One male in a blue shirt and slacks with three females, one in pink, one in blue, and the other with a white shirt and blue blouse, in line to enter a yellow school bus, while a female in pink hold paper is on the phone.","Four people, One male in a blue shirt and slacks with three females, one in pink, one in blue, and the other with a blue shirt and blue blouse, in line to enter a yellow school bus, while a female in pink hold paper is on the phone.",contradiction,entailment,100.00%,"high_overlap, long_hypothesis, missed_contradiction",False
+A man reclining with his feet up on the desk.,A man is leaning back in his chair.,entailment,contradiction,37.50%,false_contradiction,False
+A man reclining with his feet up on the desk.,A man is standing next to his desk.,contradiction,entailment,50.00%,missed_contradiction,False
+The little girl in yellow is touching the dad who has shaving cream on his face.,A little girl is shaving her fathers head,contradiction,neutral,50.00%,other,False
+"A white-haired conductor is standing in front of an orchestra which is also standing, instruments in hand.",The conductor and orchestra are not sitting because the crowd is cheering.,neutral,contradiction,27.27%,negation,True
+"Two young girls have fun on a trampoline, one of which appears to be falling down onto her back while the other poses with a smile behind her.",Two young girls are sitting on a trampoline talking.,contradiction,neutral,55.56%,other,False
+A woman in a blue star printed dress stands next to a grill with food on it.,The woman has her husband hog tied and cooking on the barbecue.,contradiction,neutral,18.18%,low_overlap,False
+A taxi is trying to drive on a street amidst a crowd of people.,The taxi is driving slow.,entailment,neutral,40.00%,missed_entailment,False
+A group of people are standing on a platform and waiting for the subway train.,People gathering in a group,neutral,entailment,60.00%,false_entailment,False
+There is a blue bowl and a fruit platter on the table which is covered with a white tablecloth.,An artist is setting up things to paint.,neutral,contradiction,12.50%,low_overlap,False
+a skateboard performs a trick off a quarter pipe.,A skateboard does a trick at the park.,entailment,neutral,42.86%,missed_entailment,False
+"A man, dressed in a green shirt with black pants, is transporting luggage strapped to a wheelbarrow, down a cobblestone road.",The road is pavement.,contradiction,entailment,25.00%,"short_hypothesis, missed_contradiction",False
+"A man, dressed in a green shirt with black pants, is transporting luggage strapped to a wheelbarrow, down a cobblestone road.",The man is traveling.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+A van with writing on it driving in front of a store.,A broken-down van in front of a shopping mall.,contradiction,neutral,62.50%,other,False
+"Two men, two children, and a woman all sitting down near a stand filled with purses.",People are sitting near a stand filled with candy.,contradiction,neutral,66.67%,quantifier,False
+"Four children playing at a preschool, one looking out the window, one is running, and the other two are playing with wooden blocks.",The children are looking out a window.,contradiction,entailment,85.71%,"high_overlap, missed_contradiction",False
+"Four children playing at a preschool, one looking out the window, one is running, and the other two are playing with wooden blocks.",The children are sad because it is raining.,contradiction,neutral,50.00%,other,False
+"Three teenagers, two without shoes having a water gun fight with various types of guns trying to spray each other.",Three teenage boys having a water fight inside.,entailment,neutral,62.50%,"negation, quantifier, missed_entailment",True
+A man does a jump trick on a bike.,He just did a trick on his bike.,entailment,neutral,50.00%,missed_entailment,False
+Three women are sitting on a wharf and kicking their feet in the water.,The sisters eat ice cream as they dip their feet in the ocean.,neutral,contradiction,33.33%,other,False
+A butterfly has lit on the head of this sleeping toddler.,A butterfly is trying to kill a sleeping toddler.,contradiction,neutral,50.00%,other,False
+A man in a restaurant having lunch.,The man is eating stardust.,contradiction,neutral,20.00%,other,False
+A woman standing on one hand in an empty pool.,"The woman is a real estate agent specializing in renovation sales, and takes a moment to goof for her co-workers camera.",contradiction,neutral,15.00%,"negation, low_overlap, long_hypothesis",True
+A group of 9 men and women walking upstairs.,The group is in a building.,entailment,neutral,33.33%,missed_entailment,False
+Mountain biking in a forest during the early fall.,Bicycling through the woods in the Autumn.,entailment,neutral,33.33%,missed_entailment,False
+two women walking in an area of destitution.,"Two FEMA workers walk down the street of the once beautiful suburban neighborhood, surveying the damage from the storm.",neutral,contradiction,12.50%,"low_overlap, long_hypothesis",False
+"Very young boy standing in front of a bride and groom, wearing a suit and holding a ring-bearer's pillow.",A funny standing,contradiction,neutral,66.67%,short_hypothesis,False
+The motorcyclist race on the course.,The man on the motorcycle road across the course while people chase him.,entailment,neutral,18.18%,"low_overlap, missed_entailment",False
+Trucks racing,Four trucks are racing against each other in the relay.,entailment,neutral,20.00%,"quantifier, missed_entailment",False
+"A man sits in a dingy stall which says ""Sol Septu"" on the sidewalk while a man poses before the stand but does not look at it.","A still sits in a dingy man which says ""why"" on the sidewalk while a stall poses before the man but refuses to look in it's direction.",contradiction,entailment,72.73%,"negation, high_overlap, long_hypothesis, missed_contradiction",True
+A man with wine near a Christmas tree.,It is the holiday season.,neutral,entailment,0.00%,"low_overlap, false_entailment",False
+Man looking at a woman that is smoking on the sidewalk.,Two people on a date stop by the side of the road to look in a store front window.,contradiction,neutral,17.65%,"low_overlap, long_hypothesis",False
+It's Summer time and two girls play with bubbles near a boat dock.,It is warm outside.,neutral,entailment,0.00%,"low_overlap, short_hypothesis, false_entailment",False
+It's Summer time and two girls play with bubbles near a boat dock.,They are on the boat dock.,contradiction,neutral,33.33%,other,False
+Two men are carrying nets near a pier.,men walking by the river,neutral,contradiction,20.00%,other,False
+Group of guys sitting in a circle.,The group is made up of guys.,entailment,neutral,28.57%,missed_entailment,False
+Group of guys sitting in a circle.,There are no females around them.,neutral,contradiction,0.00%,"negation, low_overlap",True
+Group of guys sitting in a circle.,The guys are sitting in a square.,contradiction,neutral,57.14%,other,False
+A group of people gather on a outdoor patio.,Strangers meet together outside.,neutral,contradiction,0.00%,"low_overlap, short_hypothesis",False
+An older man dressed in blue is sitting on the sidewalk surrounded by tools to polish shoes.,There were tools to shine something.,neutral,entailment,33.33%,false_entailment,False
+A girl holds onto a rope above the water.,A girl is swimming.,contradiction,neutral,50.00%,short_hypothesis,False
+"a woman siting in a black polka dot bathing suit top, and blue high waist underwear bottoms sitting in the sidewalk with three bags and a green bottle.",A woman looks odd sitting on the sidewalk with several bags and a bottle while wearing a bathing suit.,neutral,entailment,52.94%,"long_hypothesis, quantifier, false_entailment",False
+Three people each lead one camel with riders in a silhouetted line across sand dunes and a gray sky.,People walking across the sand.,entailment,contradiction,40.00%,"quantifier, false_contradiction",False
+A person throwing a yellow ball in the air.,The person throws a square,contradiction,neutral,60.00%,other,False
+A man in a dark floral shirt and black jeans walks buy a brightly colored wall painted with a woman with bright green eyes.,A man walks past a newly painted mural of a woman.,entailment,neutral,44.44%,missed_entailment,False
+A girl is playing the keyboard with her band.,A young girl is playing in a band.,entailment,neutral,71.43%,"high_overlap, missed_entailment",False
+"A man is taking a scenic photo of mountains while framing the foreground with low-growth, colorful brush.",There is a person taking a close-up self portrait.,contradiction,neutral,37.50%,other,False
+A man in a t-shirt is stirring something in a pot which is on a counter near a microwave oven.,A man is standing,neutral,entailment,75.00%,"high_overlap, short_hypothesis, false_entailment",False
+Middle-aged man in casual clothes looking off-camera.,The man's face is in profile.,neutral,entailment,16.67%,"low_overlap, false_entailment",False
+Three children are in the process of jumping into a pool in what appears to be a suburban backyard.,The backyard is in the front of the house.,contradiction,neutral,42.86%,other,False
+A brown dog is pulling itself out of the water onto some rocks with a tennis ball in its mouth.,The dogs are fighting.,contradiction,neutral,25.00%,"short_hypothesis, quantifier",False
+A team of men performing a life saving procedure.,The team of men are performing surgery.,neutral,entailment,57.14%,false_entailment,False
+A team of men performing a life saving procedure.,The team of men were attacked by a shark.,neutral,contradiction,44.44%,other,False
+A small dog wearing a denim miniskirt.,A dog is wearing a skirt.,entailment,contradiction,60.00%,false_contradiction,False
+Skateboarder jumps a gap while being photographed,an artist does tricks on the street,contradiction,neutral,0.00%,low_overlap,False
+Skateboarder jumps a gap while being photographed,a photographer takes pictures of a skateboarder doing tricks,entailment,neutral,25.00%,missed_entailment,False
+People walking through dirt.,They are in the desert.,neutral,contradiction,0.00%,low_overlap,False
+"A woman wearing a vertical striped top, sitting on a bench beside a telephone booth in a train station.",A woman gets on a train.,contradiction,neutral,60.00%,other,False
+Scientists sit in a laboratory in sterile clothing while looking at microscopes.,A group of children are sitting in a science class,contradiction,neutral,22.22%,other,False
+A girl in a red polka dot bikini is jumping off a sand dune.,A girl in a bikini jumps off a dune into a pirate ship.,contradiction,neutral,50.00%,other,False
+"Beautiful young dancer performing dressed in white and silver performs an acrobatic, ballet, hula-hoop, dance routine while 4 female observers look on.",The young dancers are performing in front of people.,neutral,entailment,33.33%,false_entailment,False
+"Nine women in blue and purple dresses and one man wearing a purple shirt and black pants, clap while a man dressed in black dances.",There is a group watching a street performance.,neutral,contradiction,14.29%,low_overlap,False
+"Nine women in blue and purple dresses and one man wearing a purple shirt and black pants, clap while a man dressed in black dances.",People are protesting against the sexual dancing of gothic man.,contradiction,neutral,0.00%,low_overlap,False
+toddlers playing with toys.,There is at least two children.,neutral,entailment,0.00%,"low_overlap, false_entailment",False
+Two German sheperds snarling at each other.,Two puppies are play fighting.,neutral,contradiction,20.00%,quantifier,False
+Three indoor track cyclist are being held balanced in place at the starting line by three attendants.,Three cyclists are preparing to race.,entailment,neutral,33.33%,missed_entailment,False
+What appears to be a taller bald white man sitting next to a shorter black man in a reception area.,The taller bald white man is standing by the short black man.,entailment,contradiction,45.45%,false_contradiction,False
+Several men in fluorescent pinnies work on a structure shrouded in a green veil while a cherry picker truck hauls material.,the men are building a top secret bomb,contradiction,neutral,25.00%,quantifier,False
+A little girl plays in the ocean on the beach.,The girl is afraid of the sand.,neutral,contradiction,33.33%,other,False
+Small red airplane flies over mountaintop dropping red substance over fire.,the plane is crashing,contradiction,neutral,0.00%,"low_overlap, short_hypothesis",False
+A classroom full of students is looking in the same direction inside a bamboo structure.,A class taking a trip outside to visit a bamboo inspired structure.,neutral,contradiction,30.00%,other,False
+A man in a gray shirt sorts through Hawaiian style shirts in a department store.,The man is shopping at the department store.,entailment,neutral,42.86%,missed_entailment,False
+A man wearing a blue sweatshirt and a white hard hat is working on a construction project.,The man is a construction worker.,entailment,neutral,66.67%,missed_entailment,False
+A parade of people is marching in Santa costumes on a city street.,A group is in christmas themed suits.,entailment,neutral,42.86%,missed_entailment,False
+in a girls basketball game she is shooting a foul shot,The girl is taking extra shots fro the line.,entailment,neutral,12.50%,"low_overlap, missed_entailment",False
+A man cooks a large amount of shellfish in a wok outdoors.,He made the  shellfish  outside.,entailment,neutral,20.00%,missed_entailment,False
+A man cooks a large amount of shellfish in a wok outdoors.,the water  looks  cold  to swim in.,contradiction,neutral,0.00%,low_overlap,False
+A blond child is hiding behind a wooden post.,The child might be outside.,entailment,neutral,20.00%,missed_entailment,False
+A black dog and a goose swim in the water.,The goose has something in its mouth.,neutral,entailment,42.86%,false_entailment,False
+Two men trying to hoist themselves up from the water on to a walkway made of tires.,two men are helping each other,neutral,entailment,33.33%,"quantifier, false_entailment",False
+Two men are trying to kick each other.,Two men are fighting.,neutral,entailment,75.00%,"high_overlap, short_hypothesis, quantifier, false_entailment",False
+A man in a large crowd converses with his friends.,A man is giving a speech to his peers.,neutral,entailment,37.50%,false_entailment,False
+Construction workers walk towards their next job.,The workers are walking outside,entailment,neutral,20.00%,missed_entailment,False
+Construction workers walk towards their next job.,The construction crew is done for the day,contradiction,neutral,14.29%,low_overlap,False
+A small child is sitting on a stump in a forest clearing.,a little boy is playing hide and seek in the woods,contradiction,neutral,27.27%,other,False
+Two guys are on a baseball field and one is about to hit the base.a group,One of the guys is a batter.,entailment,neutral,71.43%,"high_overlap, missed_entailment",False
+A wrestler in purple curls up in a ball while one in blue celebrates.,The wrestler in purple celebrates.,contradiction,entailment,80.00%,"high_overlap, missed_contradiction",False
+A wrestler in purple curls up in a ball while one in blue celebrates.,The wrestler in blue is undefeated.,contradiction,neutral,50.00%,other,False
+Two teen girls relax on a black futon.,Two young girls are sitting inside.,neutral,entailment,33.33%,false_entailment,False
+A group of people dressed in Santa Claus suits are looking towards an audience while a DJ runs a sound board and another person throws green balls into the air.,A band plays at a beach party.,neutral,contradiction,16.67%,"negation, low_overlap",True
+A group of people dressed in Santa Claus suits are looking towards an audience while a DJ runs a sound board and another person throws green balls into the air.,A crowd of santas are on stage at a Christmas party.,entailment,neutral,30.00%,"negation, missed_entailment",True
+"On a sunny day, in a lush, green field, one small girl inspects a rock while her friend goes off in another direction.",A girl watches something,neutral,entailment,50.00%,"negation, short_hypothesis, false_entailment",True
+A dog begins to climb a brick staircase near plants.,The plants are dead.,neutral,contradiction,0.00%,"low_overlap, short_hypothesis",False
+A determined crosscountry runner.,A runner transcends his psychial  boundaries,neutral,entailment,16.67%,"low_overlap, false_entailment",False
+A determined crosscountry runner.,Running away from a stray dog,contradiction,neutral,16.67%,low_overlap,False
+A man kneeling and a woman standing next to him.,The man is tying the woman's shoe.,neutral,contradiction,16.67%,low_overlap,False
+A little girl with blond pigtails is being held upside down by a blond woman with a ponytail.,A blond woman is helping a little girl perform a handstand.,neutral,entailment,66.67%,false_entailment,False
+A man in a lab coat looking into a microscope with containers in the background.,A man with a lab coat works in a lab.,neutral,entailment,75.00%,"high_overlap, false_entailment",False
+A little brown-haired girl up in a tree.,There is a girl playing on the tree.,entailment,neutral,37.50%,missed_entailment,False
+School kids all in blue backpacks.,Young students all carry blue book bags.,entailment,neutral,28.57%,"quantifier, missed_entailment",False
+A man in a black shirt holding cloth next to a wooded structure as people walk around it.,A man is holding something near some trees as people pass by.,neutral,entailment,41.67%,"quantifier, false_entailment",False
+The couple are wearing glasses intended for 3D movies.,A couple are wearing sunglasses.,contradiction,entailment,60.00%,missed_contradiction,False
+Uniformed schoolgirls are walking together on the street.,The girls attend school.,entailment,neutral,25.00%,"short_hypothesis, missed_entailment",False
+A person climbs a cliff face in the woods while others watch.,A person climbs a tree in the woods.,contradiction,neutral,71.43%,high_overlap,False
+A group of people gathered to watch fireworks.,Everyone is outside looking into the sky.,entailment,contradiction,0.00%,"low_overlap, false_contradiction",False
+A group of people gathered to watch fireworks.,The group gathered inside the house.,neutral,contradiction,40.00%,other,False
+Four female athletes play beach volleyball at the London 2012 Olympics.,The women are great at beach volleyball.,entailment,neutral,42.86%,missed_entailment,False
+Four female athletes play beach volleyball at the London 2012 Olympics.,They were hurt in a crash on the way to the Olympics.,contradiction,neutral,18.18%,low_overlap,False
+"A child in a red jacket, waist deep in a pit on the beach.",A child is building a sandcastle on the beach.,contradiction,neutral,62.50%,other,False
+A view down the train tracks in a large city.,A view from a bridge.,neutral,contradiction,50.00%,other,False
+"Man in gray zippered jacket and red shirt pets a brown dog and holds a young girl in pink shirt, while a woman next to him holds an infant boy and a gray dog.",A man holds a small child while petting his dog with his girlfriend is holding her son and her dog.,entailment,neutral,41.18%,"long_hypothesis, missed_entailment",False
+"Man in gray zippered jacket and red shirt pets a brown dog and holds a young girl in pink shirt, while a woman next to him holds an infant boy and a gray dog.",A woman and man are selling dogs and children.,contradiction,neutral,50.00%,other,False
+A man in a suit and tie and a woman with luggage join others in waiting in the London Underground.,People are on a double decker bus in London.,contradiction,neutral,22.22%,other,False
+Big hairy dog chews on a bone while lying on a furry toy.,The dog is laying on a pointy object,contradiction,entailment,37.50%,missed_contradiction,False
+A woman in the street with a black shirt and stars with her mouth open.,The woman is getting her hair done.,contradiction,neutral,42.86%,other,False
+Football players square off before a play.,There are people playing football outdoors,entailment,neutral,16.67%,"low_overlap, missed_entailment",False
+A group of people plays a game on the floor of a living room while a TV plays in the background.,A group of people plays a fun game on the floor of a living room.,entailment,neutral,83.33%,"high_overlap, long_hypothesis, missed_entailment",False
+A group of people plays a game on the floor of a living room while a TV plays in the background.,A group of friends are playing the xbox while other friends wait for their turn.,contradiction,neutral,35.71%,long_hypothesis,False
+A group of people plays a game on the floor of a living room while a TV plays in the background.,A group of people are sitting on the floor.,entailment,contradiction,66.67%,false_contradiction,False
+A man uses stereo equipment.,The man is hammering a,contradiction,neutral,40.00%,other,False
+"A crowd is watching 2 shirtless men, one in yellow pants and one in black shorts perfom.",A crowd watches two shirtless men perform together.,entailment,neutral,37.50%,missed_entailment,False
+A man holds wooden boards together as a young boy drives a nail into them.,An adult male holds wooden boards together as a boy hammers a nail into them.,entailment,contradiction,71.43%,"high_overlap, long_hypothesis, false_contradiction",False
+A man wearing chuck taylor shoes and a tan shirt attempts to break free from a straitjacket in front of a crowd,a man in a straight jacket,entailment,contradiction,60.00%,false_contradiction,False
+Two men working on something in a shop.,Two men are working on the same thing.,neutral,entailment,50.00%,false_entailment,False
+Two people are walking towards a wooded building.,The building is walking toward the men.,contradiction,neutral,16.67%,low_overlap,False
+several people standing below a clock tower with two clock faces.,several people are next to a building,neutral,entailment,42.86%,"quantifier, false_entailment",False
+Two girls are walking down the street looking at items in the store windows.,Two friends are walking together to there house and decided to skip,contradiction,neutral,27.27%,other,False
+"A man in an urban area is sweeping the sidewalks, with a group of people in the background, crossing a street.",The man is sweeping his home.,contradiction,neutral,66.67%,other,False
+A man in a blue shirt climbs a rock while people behind him in red shirts watch.,A man watches others climbing a rock.,contradiction,entailment,33.33%,missed_contradiction,False
+Here we have a guy using a pressure washer on the sidewalk.,The man is pressure washing his house.,contradiction,neutral,28.57%,other,False
+A inside view of an apartment showing 2 couches and a coffee table.,There is a man sitting on one of the couches doing a crossword puzzle.,neutral,contradiction,23.08%,other,False
+A man perched on a row of aquariums is using a net to scoop a fish from another aquarium.,A man works at a pet shop.,neutral,contradiction,33.33%,negation,True
+A gathering of young African males under a thatched roof.,A group of men are standing on a roof.,contradiction,entailment,37.50%,missed_contradiction,False
+Semi-pro martial artist practices his most powerful moves.,The martial artist has been trained.,neutral,entailment,33.33%,"quantifier, false_entailment",False
+Semi-pro martial artist practices his most powerful moves.,The kid just started his kung fu training class.,contradiction,neutral,11.11%,"low_overlap, quantifier",False
+A man in a blue polo raises his wineglass to toast.,A man drinks from his wineglass.,contradiction,entailment,50.00%,missed_contradiction,False
+A blond woman talking on her cellphone as her hair blows,a woman talking to the TV,contradiction,neutral,50.00%,other,False
+"A man in a brown jacket, white shirt, and dark slacks is holding a book with his finger on the page while sitting on a wooden floor, and leaning against a yellow wall with a door on one side and cloths on hangers on the other side.",A man sits on a wooden floor building a model ship.,contradiction,neutral,44.44%,other,False
+A man carrying a hard hat is running down the street.,A man is performing in a parade with dogs.,contradiction,neutral,37.50%,other,False
+Little kids enjoy sprinklers by running through them outdoors.,Children are getting wet on purpose.,entailment,neutral,0.00%,"low_overlap, missed_entailment",False
+One man watching another man operate heavy machinery doing road construction.,Two workers are outside doing construction work.,neutral,entailment,14.29%,"negation, low_overlap, false_entailment",True
+3 people walking through a small field.,A group of friends walking outside.,entailment,neutral,33.33%,missed_entailment,False
+3 people walking through a small field.,Three people in a medow of flowers.,neutral,contradiction,28.57%,other,False
+a pizza employee waiting for his next drive up customer,A person is picking up a pizza for dinner.,contradiction,neutral,50.00%,other,False
+a pizza employee waiting for his next drive up customer,The employee is walking around the building.,neutral,contradiction,16.67%,low_overlap,False
+A man is standing in front of a building holding heart shaped balloons and a woman is crossing the street.,Someone is holding something heavy outside.,contradiction,entailment,33.33%,missed_contradiction,False
+A small child outside in front of a large dirt pile.,The small child will play in the dirt.,entailment,neutral,42.86%,missed_entailment,False
+A slender woman wearing jeans and a colorful purse is standing on a large yellow maneuver.,The woman is wearing a blue shirt,neutral,contradiction,57.14%,other,False
+A construction man appears to be staring at a device.,A laborer looks at his tools.,neutral,entailment,33.33%,false_entailment,False
+A person writing something on a newspaper.,The person is writing a book.,contradiction,neutral,50.00%,other,False
+A girl in a pink shirt tries to dump a bucket of water on another girl.,A girl wants to get another girl wet.,neutral,entailment,57.14%,"negation, false_entailment",True
+"A young child, wearing a pink-polkadotted outfit, smiles at the camera as she lays on a white, shaggy rug.","the child is in stripe,",contradiction,entailment,20.00%,missed_contradiction,False
+Man dressed in business casual attire playing the saxophone with the rest of a band.,Man plays a woodwind instrument.,entailment,contradiction,40.00%,false_contradiction,False
+A lady is standing up holing a lamp that is turned on.,The lamp has a busted bulb.,contradiction,neutral,33.33%,other,False
+A young child sits on some pillows with a green tray of chopped-up food in front of him.,A young man prepares to eat a meal.,neutral,contradiction,28.57%,quantifier,False
+A group of women in white robes walk through the grass.,Women are at a spa,neutral,contradiction,40.00%,other,False
+A woman in a colorful outfit sitting on the ground.,The woman is knitting a sweater.,contradiction,neutral,50.00%,other,False
+A Latin American weaving fabric.,The person is making fabic,entailment,neutral,0.00%,"low_overlap, missed_entailment",False
+A Latin American weaving fabric.,The person is from Italy,contradiction,neutral,0.00%,low_overlap,False
+Three young people sit outside and engage with electronic devices.,There is a tin can and string telephone.,contradiction,neutral,12.50%,low_overlap,False
+An older man is walking in a large grassy area with a small plane in the background about to land.,A person is outside.,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+People wait in line at bus stop.,The bus already has people waiting on it.,entailment,neutral,25.00%,missed_entailment,False
+A man wearing an orange hard hat is being lowered down the side of a building.,The man is breaking into the building.,contradiction,neutral,66.67%,other,False
+A forest scene graces a curving wall as someone sits to the rear of the picture where there is a break in the design.,A person is studying graffiti on a building.,contradiction,neutral,28.57%,other,False
+Boys on a field playing flag football with one boy wearing the red flag clutching the football while a boy with a yellow flag dives to get his red flag.,A boy attempts to tackle an opposing player in a game of flag football,entailment,neutral,38.46%,missed_entailment,False
+A little boy in a striped shirt is standing behind a tree.,The boy is hiding outside.,entailment,neutral,40.00%,missed_entailment,False
+There are two workers one is bent over with his butt to the camera,The worker is picking up a wrench from the ground.,neutral,contradiction,22.22%,other,False
+A poor family is leaving their home with only a few belongings.,A family has been evicted.,neutral,entailment,40.00%,"quantifier, false_entailment",False
+"A man at the beach, building a sand castle.",The waves have torn down a sand castle that the man is standing near.,contradiction,neutral,30.77%,other,False
+A man and a dog on the beach.,The dog is eating a hamburger.,neutral,contradiction,50.00%,other,False
+An african american runs with a basketball as a caucasion tries to take the ball from him.,"The white basketball player tries to get the ball from the black player, but he cannot get it.",neutral,contradiction,40.00%,"negation, long_hypothesis",True
+A child is jumping off a platform into a pool.,The child is swimming.,entailment,neutral,50.00%,"short_hypothesis, missed_entailment",False
+Young friends in a park relaxing and enjoying conversation with each other.,The park is conversing with the young others.,contradiction,entailment,42.86%,"quantifier, missed_contradiction",False
+"A young woman with red hear and wearing a bikini top is standing with her hands together above her head, while three other people stand directly behind her with their arms in different positions, making the woman in front look as if she has many arms.","Four young people are lined up  behind another and they are holding their arms out so it looks like the arms all belong to the first person, a red haired woman in a bikini top.",entailment,neutral,38.71%,"negation, long_hypothesis, quantifier, missed_entailment",True
+"A young woman with red hear and wearing a bikini top is standing with her hands together above her head, while three other people stand directly behind her with their arms in different positions, making the woman in front look as if she has many arms.","Four people are lined up one behind another and they are holding their arms out so it looks like the arms all belong to the first person, a red haired woman in a bikini top.",entailment,neutral,35.48%,"negation, long_hypothesis, quantifier, missed_entailment",True
+Interior scene of fairly full tour bus.,There are many people on the bus.,entailment,neutral,14.29%,"low_overlap, quantifier, missed_entailment",False
+A group of men are searching for something.,A group of men found treasure.,contradiction,neutral,66.67%,other,False
+A crowd watching a soccer match.,A crowd enjoys a soccer match.,entailment,neutral,80.00%,"high_overlap, missed_entailment",False
+A young boy is on a patio crowded with metal tables and chairs and 2 yellow umbrellas.,A young boy is at the park.,contradiction,neutral,57.14%,other,False
+A young boy is on a patio crowded with metal tables and chairs and 2 yellow umbrellas.,A young boy is on a patio with lots of funiture.,entailment,neutral,70.00%,missed_entailment,False
+A group of people standing on a sidewalk.,There are people in road.,contradiction,entailment,20.00%,missed_contradiction,False
+A woman holding a red cup with a straw in it sits in front of a man and a woman looking at a book.,People read.,neutral,entailment,0.00%,"low_overlap, short_hypothesis, false_entailment",False
+A snowboarder in a white coat in the air after a jump.,A snowboarder is flipping in the air.,neutral,entailment,57.14%,"negation, false_entailment",True
+A young blond child wearing only a diaper sits on a large rock at the edge of a body of water while a large black dog stands in the water nearby.,A black lab stands in some water while a small child sits on a rock.,entailment,neutral,69.23%,"long_hypothesis, quantifier, missed_entailment",False
+Red objects fall on men standing behind a red wall.,The objects are initially higher than the men.,neutral,entailment,14.29%,"low_overlap, false_entailment",False
+Red objects fall on men standing behind a red wall.,The men are higher than the wall.,contradiction,entailment,33.33%,missed_contradiction,False
+Gymnast photographed in mid flip.,gymnast does a back flip.,entailment,neutral,40.00%,missed_entailment,False
+a man plays his guitar on the street.,The man is begging for money on the street.,neutral,contradiction,50.00%,other,False
+A man in a black wetsuit with white shorts is windsurfing on a blue body of water with mountains in the background.,The man is windsurfing in his bathtub.,contradiction,neutral,71.43%,high_overlap,False
+A woman is pushing her bike with a baby carriage in front.,A woman is taking her child for a stroll.,entailment,contradiction,50.00%,false_contradiction,False
+Two men stand in a brightly colored alley.,Two men are standing near each other.,neutral,entailment,28.57%,"quantifier, false_entailment",False
+Two men stand in a brightly colored alley.,Two men are passionately kissing in an alley.,neutral,contradiction,50.00%,other,False
+A man parasailing in rough waters.,A man is drowining.,contradiction,entailment,50.00%,"short_hypothesis, missed_contradiction",False
+A man parasailing in rough waters.,A man hangs from a parachute.,entailment,neutral,40.00%,missed_entailment,False
+A man in a kitchen leaning over a table sharpening a knife.,A guy shines his shoes.,contradiction,neutral,20.00%,other,False
+"A man lies in an alley next to two plastic bags, wearing one shoe and no shirt.",A man lies near an alley.,neutral,entailment,66.67%,"negation, false_entailment",True
+"A man lies in an alley next to two plastic bags, wearing one shoe and no shirt.",A man lies in an alley with a shotgun and a bottle.,neutral,contradiction,70.00%,negation,True
+A man with stubble on his face is holding a baby.,the boy is crying while being held back his mother,contradiction,neutral,20.00%,other,False
+Several people are wading in a river in a deep gorge.,Several people are playing in the water.,entailment,neutral,57.14%,"quantifier, missed_entailment",False
+The blond-haired and blue eyed child holds the wooden airplane in his hands.,A child is playing with a toy airplane.,entailment,neutral,14.29%,"low_overlap, missed_entailment",False
+People laying in massage chairs,People relaxing in charis.,entailment,neutral,50.00%,"short_hypothesis, missed_entailment",False
+Two young children in black clothing and padding perform a martial arts match where they compete against the other.,2 young boys compete in martial arts.,entailment,neutral,57.14%,missed_entailment,False
+A dressed up woman walking next to a store at night.,A dressed up woman is walking next to a pharmacy at night.,neutral,contradiction,81.82%,high_overlap,False
+A black woman wearing black walking by a window with a mannequin in it.,A black woman walks by a Bloomingdale's.,neutral,contradiction,66.67%,other,False
+A man with a striped shirt looks at a load of green and yellow vegetables on the back of a truck.,A man looks at a pile of colored vegetables on a car outside.,entailment,contradiction,63.64%,false_contradiction,False
+Two elderly men and one elderly woman standing on a sidewalk staring to their left.,People rest on the curb.,contradiction,entailment,20.00%,missed_contradiction,False
+Two women stop between a red smart car and a group of photographers to examine their items in hand.,Two women were walking but they stopped.,entailment,neutral,28.57%,missed_entailment,False
+A little blond girl is running near a little blond boy.,A sister and brother are playing in their yard.,entailment,neutral,11.11%,"low_overlap, missed_entailment",False
+A woman crossing a busy downtown street.,A lady is waiting for her ride down the street.,contradiction,neutral,20.00%,other,False
+"A woman is looking at a pamphlet talking to someone, while a guy takes photos in the background.",Three people take pictures.,contradiction,entailment,0.00%,"low_overlap, short_hypothesis, missed_contradiction",False
+"Skateboarder jumps off a 5 ft cliff, performing a stunt.",A skateboarder is doing a dangerous stunt.,entailment,neutral,50.00%,missed_entailment,False
+a man scales the large rock.,The man is using climbing equipment to scale a rock.,neutral,entailment,40.00%,false_entailment,False
+"A man with a cowboy hat green plaid shirt, jeans, and red boots and chaps rides a bay horse next to a young boy with a cowboy hat and blue shirt, jeans and chaps rides a pony next to him.",People are riding horses and ponies outside.,entailment,neutral,14.29%,"low_overlap, missed_entailment",False
+"A young man, without apparent protective gear, is on a bicycle jumping over small hills of sand or gravel, with a long bridge and tall buildings in the background.",A young man is racing home to eat dinner.,neutral,contradiction,33.33%,negation,True
+An older man in an apron cleaning.,A man is mopping the floor.,neutral,contradiction,16.67%,low_overlap,False
+"Two children examine a stack of books and games, including the game ""Poncho Pal,"" next to a piece of furniture.",Two children are looking for something to do.,neutral,entailment,37.50%,false_entailment,False
+A lady is looking at ice cream in a refrigerator.,A lady indoors.,neutral,entailment,66.67%,"short_hypothesis, false_entailment",False
+Two women standing outside looking at a water fountain with bright green trees in the background.,two women toss pennies into the fountain,neutral,contradiction,57.14%,other,False
+The group of people make single file lines on the field.,Soldiers standing in lines outside.,neutral,entailment,20.00%,false_entailment,False
+A man with a tattoo is wearing sunglasses while holding a small boy.,A man in sunglasses holding a small boy waits to get his first tattoo.,contradiction,neutral,38.46%,other,False
+A mother and her daughter are both wearing heels standing outside in a crowd on a brick pavement looking out at the street in amazement.,There are men on the brick pavement.,entailment,contradiction,57.14%,false_contradiction,False
+A large competition sailboat is surrounded by three small boats in the middle of the water.,There are four boats in the middle of the water.,entailment,contradiction,66.67%,false_contradiction,False
+A young boy in a striped shirt is leaning against a tree while another child sits at a picnic table.,Two children are eating together at a fantasy fair.,contradiction,neutral,22.22%,negation,True
+"A woman, wearing a white shirt and green shorts, sitting on a rock in a beautiful body of water.",The woman is barefoot.,neutral,contradiction,0.00%,"low_overlap, short_hypothesis",False
+Volleyball player showing off her action post during the game.,The star volleyball player shows off,entailment,neutral,66.67%,missed_entailment,False
+A smartly dressed woman wearing a white jacket is holding a camera.,A woman attracts man to help her,contradiction,neutral,28.57%,other,False
+A surgeon is performing an open surgery.,A doctor is performing a simple check up.,contradiction,neutral,42.86%,other,False
+Three girls fell on top of one another and are laughing histerically.,Three girls laughing about clumsily falling on each other.,entailment,neutral,44.44%,"negation, quantifier, missed_entailment",True
+A man and a woman are walking in the middle of a street.,People are crossing the street.,neutral,entailment,60.00%,false_entailment,False
+Woman wearing jeans and white shirt watches as her bowling ball rolls down the lane to the pins.,A woman scores.,neutral,entailment,33.33%,"short_hypothesis, false_entailment",False
+Girl in pink bathing suit with right arm in air behind a seagull on the beach near the water.,The girl is feeding the seagull.,neutral,contradiction,40.00%,other,False
+A man is putting on a yellow necktie while another man stands to his right side watching him.,a man puts on a tie,entailment,contradiction,60.00%,"negation, false_contradiction",True
+A female researcher videotaping a specimen.,A women is poking a specimen with a stick.,neutral,contradiction,14.29%,low_overlap,False
+Man dog sledding with his child in the icy snow.,Icy snow slowing down a man's dog sled.,neutral,entailment,25.00%,"negation, false_entailment",True
+A man wearing a Santa hat holds up a photo to the class.,Santa Claus tells the kids he is not real at the mall.,contradiction,neutral,18.18%,"negation, low_overlap",True
+A woman is cleaning an outdoor pool.,The pool is being vacuumed by the woman.,neutral,contradiction,14.29%,low_overlap,False
+"A man in a green, black, and white spandex sports uniform is riding a bike.",A guy isn't afraid to fall down and spoiled his bright uniform.,contradiction,neutral,16.67%,"negation, low_overlap",True
+A group of women are sitting and knitting together in a cafe.,the women are helping make pies,contradiction,neutral,33.33%,other,False
+A crowd of interested people surrounds a man swinging a sledgehammer.,A man shows a group of people how to use a sledgehammer.,neutral,entailment,50.00%,false_entailment,False
+A crowd of interested people surrounds a man swinging a sledgehammer.,A man shows a group of people how to blow glass.,contradiction,neutral,40.00%,other,False
+Four people are bandaging a head wound.,Medical personnel are helping an injured person.,neutral,entailment,14.29%,"low_overlap, false_entailment",False
+Girl laying atop floating dock.,A female is asleep on the deck.,contradiction,neutral,0.00%,low_overlap,False
+Women posing for a picture during a bicycle race on a bridge.,the woman is riding the bike.,neutral,contradiction,0.00%,low_overlap,False
+A man sits on the grass trying to get a hole of a fish.,Fish catches man.,contradiction,neutral,0.00%,"low_overlap, short_hypothesis",False
+A woman with a crescent tattoo on her shoulder is painting an image of a face onto a wall.,A woman tattoos someone.,contradiction,entailment,50.00%,"short_hypothesis, missed_contradiction",False
+Two kids standing beside a snowman.,Some children play in the snow.,entailment,neutral,0.00%,"negation, low_overlap, quantifier, missed_entailment",True
+Woman with headscarf and girl in red costume dress walk through urban area.,The woman has a scarf on her head.,entailment,neutral,12.50%,"low_overlap, missed_entailment",False
+2 rows of woman walking towards each other on the sidewalk outside of a store with a boy 50% sign on the golden framed windows.,The rows designate some kind of award.,contradiction,neutral,42.86%,quantifier,False
+A man wearing a baseball hate is checking his phone,The man is looking at the screen of a cell phone.,entailment,neutral,30.00%,missed_entailment,False
+A man wearing a baseball hate is checking his phone,The man loves baseball an goes to lots of games.,neutral,contradiction,20.00%,other,False
+A little girl offers a ball to an upset toddler on a grassy field while a man in bermuda shorts stands behind them.,A father plays ball with his children on a grassy field.,neutral,contradiction,40.00%,other,False
+A woman in a headscarf and a boy wearing blue look to the right while sitting against a wall.,The woman is not near the boy,neutral,contradiction,50.00%,negation,True
+A woman in a headscarf and a boy wearing blue look to the right while sitting against a wall.,The woman and the boy are sitting near a wall and each other,neutral,entailment,54.55%,"quantifier, false_entailment",False
+"Four men wearing orange jackets and red hats, walking near a wavy trimmed bush.",The bushes are getting trimmed by guys.,neutral,entailment,14.29%,"low_overlap, false_entailment",False
+Group of children listening to security guard.,The children are behaving,neutral,contradiction,25.00%,short_hypothesis,False
+A woman and a man are sword fighting.,Two people have engaged in a sword fight and both are dead.,contradiction,neutral,33.33%,other,False
+A woman and a man are sword fighting.,A woman appears to be beating a man in a sword fight.,neutral,entailment,40.00%,false_entailment,False
+The room full of youths reacts emotionally as they spectate.,a room of kids dancing.,contradiction,entailment,40.00%,missed_contradiction,False
+A woman in a tomato-colored jogging suit carries both a red purse and a navy blue messenger bag.,The woman is holding a net.,contradiction,entailment,33.33%,missed_contradiction,False
+A guy looking out over the scenic forest.,There are birds flying over the forest.,neutral,contradiction,42.86%,other,False
+A woman prepares ingredients for a bowl of soup.,A soup bowl prepares a woman.,contradiction,entailment,60.00%,missed_contradiction,False
+A woman prepares ingredients for a bowl of soup.,A woman is cutting carrots.,neutral,contradiction,40.00%,other,False
+Two people riding bikes in the rain at skate park.,It is springtime outside.,contradiction,neutral,0.00%,"low_overlap, short_hypothesis",False
+A person is out in the water at the beach while the sun sets.,A person is laying on the shore.,contradiction,neutral,57.14%,other,False
+Two hockey players battling for the puck after a face off.,The hockey sticks are a natural color.,neutral,contradiction,42.86%,other,False
+A sumo wrestler accepting an award.,A wrestler is fighting.,contradiction,entailment,50.00%,"short_hypothesis, missed_contradiction",False
+Three adult bystanders and one child looking up toward the sky while standing on the sidewalk.,A man and his three children watch the helium balloons float higher in the air.,contradiction,neutral,21.43%,long_hypothesis,False
+Two people are sitting under a tent while another stands.,People are camping.,entailment,neutral,66.67%,"negation, short_hypothesis, missed_entailment",True
+A man with a blue and gray shirt is standing in front of a metal fence while taking a picture of the landscape.,A man photographs a field.,entailment,neutral,50.00%,missed_entailment,False
+A man with a blue and gray shirt is standing in front of a metal fence while taking a picture of the landscape.,A man gets his picture taken.,contradiction,entailment,50.00%,missed_contradiction,False
+One man stops to give a sweet kiss to a cow near a train on an overpass.,the man is watching the trains pass,contradiction,neutral,16.67%,low_overlap,False
+two bicyclists in spandex and helmets in a race pedaling uphill.,"The two bicyclists cross each and give each a high five as one pedals uphill, and the other downhill.",contradiction,neutral,25.00%,"long_hypothesis, quantifier",False
+People dancing and being watched by a man wearing a shirt that says security.,The man works security for the venue.,entailment,neutral,16.67%,"low_overlap, missed_entailment",False
+A man is wearing blue button down shirt talking to media during a crowded protest.,The man is Abraham Lincoln.,contradiction,neutral,40.00%,other,False
+A man is wearing blue button down shirt talking to media during a crowded protest.,A man is giving an interview.,entailment,contradiction,50.00%,false_contradiction,False
+A skateboarder does a trick at a skate park.,The skateboarder is performing a heelie kick flip.,entailment,neutral,25.00%,missed_entailment,False
+"Four men are playing soccer, two in white jerseys, one in a red jersey and a goalie in the background.",Two opposing teams that are playing soccer have colorful jerseys.,entailment,neutral,30.00%,missed_entailment,False
+Two people are walking down the street holding hands in the fall.,A couple is waiting to go outside.,contradiction,neutral,0.00%,low_overlap,False
+Two children are sleeping while someone is fingering through a book of music.,The music is quiet.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+Two children are sleeping while someone is fingering through a book of music.,The children are at a birthday party.,contradiction,neutral,42.86%,other,False
+A skydiving instructor with a student strapped together while skydiving.,People are jumping from a plane.,entailment,contradiction,16.67%,"low_overlap, false_contradiction",False
+A skydiving instructor with a student strapped together while skydiving.,Two men are jumping from a plane.,neutral,contradiction,14.29%,low_overlap,False
+A square full of people and life.,The square is busy.,entailment,neutral,25.00%,"short_hypothesis, missed_entailment",False
+The little dog walking on the grass has a red bow in its hair.,The dog is wearing a dress.,contradiction,neutral,50.00%,other,False
+A boy in dark blue clothes is kneeling while holding a toy.,The boy in dark clothes is playing with his toy on the floor.,entailment,neutral,41.67%,missed_entailment,False
+A boy in dark blue clothes is kneeling while holding a toy.,A boy is playing with his toy.,entailment,neutral,57.14%,missed_entailment,False
+A group of Japanese women wearing matching outfits walking across a crosswalk while passersby stare.,The outfits are all black.,neutral,contradiction,20.00%,quantifier,False
+A man juggles flaming objects with a fence and a car in the background.,A risk taking juggler.,entailment,neutral,25.00%,"short_hypothesis, missed_entailment",False
+A woman in a poky dot jacket jumping in the snow with shopping bags on both of her wrists a city.,A lady in a polka dot jacket jumping in the snow with shopping bags on both of her wrists a city.,entailment,contradiction,88.89%,"negation, high_overlap, long_hypothesis, false_contradiction",True
+A woman in a black coat is riding her bike on a street as a man in shorts and a striped top looks at her as he passes her.,A man is checking out a woman as she rides by on her red bike.,entailment,neutral,50.00%,"long_hypothesis, missed_entailment",False
+Woman helps bride into dress.,A woman zips a wedding dress.,neutral,entailment,40.00%,false_entailment,False
+Two women are looking at bread in packages on a table.,The women are sitting at a table.,neutral,entailment,71.43%,"high_overlap, false_entailment",False
+A man and a female doing some type of martial arts.,Two people spar using some form of martial arts.,neutral,entailment,44.44%,"quantifier, false_entailment",False
+An Asian man is standing on a rusty dock surrounded by ropes and tires and is sticking a fishing pole into the water in front of him.,The smugglers will be coming into port shortly to pillage,contradiction,neutral,20.00%,other,False
+Three children in swimsuites are having fun outside near a white building.,Some children outside having fun and playing.,entailment,neutral,57.14%,"quantifier, missed_entailment",False
+A man in an orange hat and brown jacket and pants running on snow in snowshoes.,a man running on the track,contradiction,neutral,66.67%,negation,True
+Two elderly men having a conversation.,Two elderly woman having a conversation with their children.,neutral,contradiction,44.44%,other,False
+A balding man with a checkered shirt and khaki pants naps on his recliner with his keys on his lap.,A old man recliner with his keys,entailment,neutral,85.71%,"high_overlap, missed_entailment",False
+A balding man with a checkered shirt and khaki pants naps on his recliner with his keys on his lap.,A old man interact with his keys,neutral,entailment,71.43%,"high_overlap, false_entailment",False
+A boy in sandals is looking at a camera in a busy street.,A boy is looking at electronics near a road,entailment,contradiction,62.50%,false_contradiction,False
+Rugby player in blue dives to tackle the ball carrier in white.,A rugby player is playing in a match.,entailment,neutral,42.86%,missed_entailment,False
+A woman dressed as Snow White walks with other girls in costume down a street.,A woman is dressed as a fairy tale character.,entailment,contradiction,50.00%,"negation, false_contradiction",True
+A butterfly costumed girl waves at the crowd.,A butterfly costumed girl is standing on the stage.,neutral,contradiction,55.56%,other,False
+A boy with a board strapped to his feet does a trick while holding onto some kind of rope.,A boy is showing off for his friends.,entailment,neutral,37.50%,"quantifier, missed_entailment",False
+A young woman rides by herself on a swinging carnival ride.,A woman is enjoying herself.,entailment,neutral,40.00%,missed_entailment,False
+A young boy falls off his skateboard into a pile of brown leaves in the road.,A young boy falls down in Autumn.,entailment,neutral,71.43%,"high_overlap, missed_entailment",False
+A mountain biker clad in protective gear clears a small dirt mound on a track while an audience watches.,A biker leaps over a clad at a mountain bike show.,neutral,entailment,44.44%,false_entailment,False
+Two men in yellow jackets and black pants have medals.,The men have been given an award at some point.,entailment,neutral,20.00%,"quantifier, missed_entailment",False
+"A blue uniformed rollerskater is struggling for the lead against a long-haired, tattooed and red uniformed rollerskater.",The rollerskaters are well informer.,contradiction,neutral,20.00%,other,False
+A young boy wearing safety swimming gear and goggles is in a pool.,A child wears water wings while swimming.,neutral,contradiction,14.29%,low_overlap,False
+A man sits as a man behind him washes a bus.,Mark Twain has convinced Huckleberry Finn to wash the entire bus while Twain outlines his new novel.,contradiction,neutral,0.00%,"negation, low_overlap, long_hypothesis",True
+A man sits as a man behind him washes a bus.,"One man works, another man works on his sitting.",entailment,neutral,12.50%,"negation, low_overlap, missed_entailment",True
+A man wears a brightly colored ceremonial robe while holding a similarly colored cone shaped hat with a star on top.,The wizard casts a spell,neutral,contradiction,20.00%,other,False
+A young man is caught in midair while doing a skateboard trick in an urban environment.,The man is upside down in the air.,neutral,entailment,42.86%,false_entailment,False
+A man in a fleece jacket works with a piece of tin.,A man is wearing a brown jacket.,neutral,contradiction,33.33%,other,False
+"A young boy in a Boy Scout shirt sits in a folding camp chair indoors, with other similar chairs around him, and a green tent behind him.",The young boy scout is cleaning up the aftermath of an awesome party.,contradiction,neutral,25.00%,other,False
+A man drawing pictures of individuals sits under an umbrella with previous works such as justin beiber around him.,an artist works,neutral,entailment,66.67%,"short_hypothesis, false_entailment",False
+A person on a motorcycle.,a couple on a motorcycle,contradiction,neutral,50.00%,other,False
+A young man is having his dreadlocks cutoff by a woman with scissors.,The young man has twisted hair.,entailment,neutral,33.33%,missed_entailment,False
+Small boys in sports jerseys play with a yellow ball.,A pee-wee football team at practice,neutral,contradiction,16.67%,low_overlap,False
+A young women dips her feet into a natural spring in an outdoor setting.,A college aged woman is sitting by a spring.,neutral,contradiction,12.50%,low_overlap,False
+A dark colored man receives felicitations from a white colored woman which is seen by another white colored man.,A lady is scolding a man,contradiction,neutral,60.00%,negation,True
+Three men and two women stand facing the ocean from the shore on a sunny day.,People stand in the ocean waves.,neutral,entailment,50.00%,false_entailment,False
+"Three middle-age women are on a stage, one singing and the other two cheerleading in blue uniforms.",All of the women are wearing tracksuits.,neutral,contradiction,42.86%,quantifier,False
+"Three middle-age women are on a stage, one singing and the other two cheerleading in blue uniforms.",The older women are singing.,neutral,entailment,60.00%,false_entailment,False
+A clerk at a store is idling a waiting for next customer.,Clerk waits in checkout line.,entailment,neutral,20.00%,missed_entailment,False
+A clerk at a store is idling a waiting for next customer.,Clerk is busy ringing up products.,contradiction,neutral,33.33%,other,False
+"A man and woman stand facing each other, the man holding an instrument and the woman holding a piece of paper.",The duo are singing a song.,neutral,contradiction,33.33%,quantifier,False
+A girls sports team putting their hands in a circle to do a bonding cheer.,Cheerleaders doing a cheer,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+A person in a red hat with a huge backpack going hiking.,The person is in a hat has a big bag while walking on a tough terrain.,neutral,entailment,28.57%,"long_hypothesis, false_entailment",False
+Two men are in a bare room sweeping the floor.,Two janitors sweep,entailment,neutral,33.33%,"short_hypothesis, missed_entailment",False
+Several women with long hair and mini-dresses walk together.,A group of ladies leaves the hair salon.,neutral,contradiction,12.50%,"low_overlap, quantifier",False
+"A man holds a sign outside a hotel that reads ""Ok Ok Ok, I need money for beer, pot and a hooker.""",A man is holding up a humorous sign.,entailment,neutral,28.57%,missed_entailment,False
+"A man holds a sign outside a hotel that reads ""Ok Ok Ok, I need money for beer, pot and a hooker.""",The man is appealing to morality.,contradiction,neutral,16.67%,low_overlap,False
+A man is performing tricks with his superbike.,A man is riding a bike.,entailment,contradiction,60.00%,false_contradiction,False
+"A man wearing a tan hat and shirt, an orange safety vest, and dark glasses gestures towards a nearby car.",The car honks its horn.,neutral,contradiction,0.00%,low_overlap,False
+"A group of people, men, women and children gathered around a table stacked with merchandise.",There are products on the furniture.,neutral,entailment,0.00%,"low_overlap, false_entailment",False
+People crowded around toys on a table.,People are looking at something.,neutral,entailment,20.00%,false_entailment,False
+People crowded around toys on a table.,People are in the middle of the Christmas rush.,neutral,contradiction,12.50%,low_overlap,False
+A man and a woman repairing something.,A couple work together to make dinner in the kitchen.,contradiction,neutral,10.00%,low_overlap,False
+A woman in a blue shirt stands with her hands on her hips.,The woman in the blue shirt is looking at paintings in a museum.,neutral,contradiction,45.45%,other,False
+A man grabs the spokes of his bicycle while he jumps.,A man owns a bicycle.,neutral,entailment,50.00%,false_entailment,False
+A person performs a snowboarding trick on a rail as a man crouches down to get a better view.,The person snowboards well.,entailment,neutral,25.00%,"negation, short_hypothesis, missed_entailment",True
+A woman at a campground.,A woman out in the forest.,neutral,contradiction,33.33%,other,False
+A woman in a white t-shirt points at a geyser.,The women points at the frozen glacier off the side of the cruise ship.,contradiction,neutral,18.18%,low_overlap,False
+Dog standing with 1 foot up in a large field.,The dog is standing on one leg.,contradiction,entailment,28.57%,missed_contradiction,False
+Four people in a kitchen,Four people in a kitchen cooking.,entailment,neutral,83.33%,"high_overlap, missed_entailment",False
+A person is folding laundry on the floor.,A man is folding his laundry while sitting on the floor.,entailment,neutral,63.64%,missed_entailment,False
+A person is folding laundry on the floor.,A person is shampooing the carpet.,contradiction,neutral,66.67%,other,False
+A woman on vacation enjoying a vanilla ice cream cone.,A woman is putting ice cream in her shoe.,contradiction,entailment,44.44%,missed_contradiction,False
+A man pulls a bicycle-driven cart through a city alley.,A man is in an urban location.,neutral,entailment,28.57%,false_entailment,False
+A man pulls a bicycle-driven cart through a city alley.,A man is pulling his ice cream cart.,neutral,contradiction,25.00%,other,False
+A rather tall man and a woman wearing a red top and blue jeans waiting at on the sidewalk.,The man and woman are standing next to a road.,entailment,contradiction,50.00%,false_contradiction,False
+A rather tall man and a woman wearing a red top and blue jeans waiting at on the sidewalk.,The man and woman are walking to the pharmacy.,contradiction,neutral,50.00%,other,False
+"A lone red, white, and black race car is being driven by a single driver on a racetrack.",car making a lap of the ground,neutral,contradiction,28.57%,other,False
+Young girl playing with chocolate milk powder.,She ate the chocolate milk poweder unmixed,neutral,contradiction,28.57%,other,False
+Young girl playing with chocolate milk powder.,The girl is a grandparent,contradiction,neutral,20.00%,other,False
+Seated street musician in black derby plays wind instrument with no one listening or watching.,The man is playing Clarinet.,neutral,contradiction,0.00%,"negation, low_overlap",True
+Seated street musician in black derby plays wind instrument with no one listening or watching.,The man sitting down is a musician.,neutral,entailment,0.00%,"negation, low_overlap, false_entailment",True
+A black girl and white girl walking hand and hand in a busy area of a city with a public train in the background.,Some kids take public transit.,neutral,entailment,20.00%,"quantifier, false_entailment",False
+A group of people wearing light blue shirts and dark blue pants moving around all together.,A group of people in similar clothing are aware of each other.,entailment,neutral,36.36%,"quantifier, missed_entailment",False
+A man in black is crossing the road.,He is walking on his hands.,contradiction,neutral,16.67%,low_overlap,False
+"Two men not wearing any pants are sitting next to each other, both reading, on public transportation.",The two men are wearing swimshorts.,neutral,contradiction,66.67%,"negation, quantifier",True
+"Several people prepare their stalls that consist of fish, vegetables and fruits for the public eye.",a bunch of people wait in stalls,neutral,entailment,42.86%,"quantifier, false_entailment",False
+A man in a green and black coat is leaning on trashcan.,The man in a shirt is leaning on a post.,contradiction,entailment,66.67%,missed_contradiction,False
+A person with dark hair is standing on the sidewalk in front of an orange and white truck.,The person gets in the white truck.,entailment,contradiction,83.33%,"high_overlap, false_contradiction",False
+A person with dark hair is standing on the sidewalk in front of an orange and white truck.,The man is standing on the sidewalk.,entailment,neutral,66.67%,missed_entailment,False
+Man waters plants as woman in orange shirt walks by.,The man is near water.,contradiction,entailment,20.00%,missed_contradiction,False
+Worker sawing a large fish with a band saw.,Workers are preparing their dinner meal,neutral,contradiction,0.00%,low_overlap,False
+A girl carries large sacks across a backdrop of foliage.,a girl with a sack also known as a he she,contradiction,neutral,22.22%,negation,True
+"Three people on bicycles, pedaling down the side of a road, with a jeep following them.",Three people on bicycles are chasing a jeep.,contradiction,entailment,50.00%,missed_contradiction,False
+A woman wearing a blue hairnet and apron talks over her shoulder as she grasps a plastic pitcher.,She is working in a school cafeteria.,neutral,contradiction,28.57%,other,False
+A woman wearing a blue hairnet and apron talks over her shoulder as she grasps a plastic pitcher.,The woman woman wearing the hairnet is getting her hair done at the salon.,neutral,contradiction,36.36%,other,False
+"Performers wearing bright robes, one with a long necklace and some masks.",The people are athletes,contradiction,neutral,0.00%,"low_overlap, short_hypothesis, quantifier",False
+"Performers wearing bright robes, one with a long necklace and some masks.",The people are perfomers,entailment,neutral,0.00%,"low_overlap, short_hypothesis, quantifier, missed_entailment",False
+"A man wearing a black jacket plays on his smartphone, while the little girl next to him wearing a scarf and blue jacket reads a book.",The person is playing on his tablet.,contradiction,entailment,42.86%,missed_contradiction,False
+A man in a bicycle is passing through a house with blue doors.,A man is looking at a painting.,contradiction,neutral,50.00%,other,False
+This lady had a lot of freckles.,The freckles are all over the bridge of her nose.,neutral,contradiction,11.11%,"negation, low_overlap, quantifier",True
+Two dogs swimming.,Two dogs chasing a stick in the lake.,neutral,contradiction,25.00%,other,False
+A little girl is walking over a path of numbers.,The girl is walking on the grass.,contradiction,neutral,50.00%,other,False
+A little girl is walking over a path of numbers.,The girl is outside.,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+A little girl is walking over a path of numbers.,She is playing hopscotch.,neutral,contradiction,25.00%,short_hypothesis,False
+Two construction workers sitting around a hole with a third construction worker in it.,Men are building a skyscraper.,contradiction,neutral,20.00%,other,False
+A black woman balancing a large platter on her head that has many bagged items on it.,A woman lugging things over her back,contradiction,entailment,42.86%,"quantifier, missed_contradiction",False
+A young girl throws sand toward the ocean.,The girl can't stand the ocean,neutral,entailment,40.00%,"negation, false_entailment",True
+Older lady checking out her goods at the check-out counter.,A woman is out shopping.,neutral,entailment,20.00%,false_entailment,False
+A dog is running through an obstacle course in front of a group of people.,A dog is showcasing its agility,entailment,neutral,50.00%,missed_entailment,False
+A cabin shot of a very crowded airplane,The airplane is in the sky.,neutral,contradiction,20.00%,other,False
+"Three men stand on the beach, fully clothed.",Three men by the ocean.,neutral,entailment,60.00%,false_entailment,False
+"A man in his 30's is sitting on a curb of a busy sidewalk, dressed in a furry green costume.",The man just lost his job playing Oscar the Grouch at Sesame Place because he kicked a child.,neutral,contradiction,17.65%,"low_overlap, long_hypothesis",False
+"A man in his 30's is sitting on a curb of a busy sidewalk, dressed in a furry green costume.",The man really has furry green skin.,contradiction,neutral,42.86%,other,False
+A couple of friends have a drink.,Two men are at a bar.,neutral,contradiction,16.67%,low_overlap,False
+A pedestrian adjusting shoes and accessories.,The pedestrian is out for a nice walk.,neutral,contradiction,25.00%,other,False
+A pedestrian adjusting shoes and accessories.,The pedestrian is only wearing socks.,contradiction,neutral,16.67%,low_overlap,False
+A woman in red shorts is writing on a tablet.,A woman is taking notes.,neutral,entailment,60.00%,"negation, false_entailment",True
+A lady dances in a polka dot dress and a head of flowers with a fan clasped in her hand while others are looking in a different direction with two men holding onto a ladder and others discussing.,A woman works on a new porch.,contradiction,neutral,16.67%,low_overlap,False
+Young lady during a performance of modern dance.,The young lady is working out.,neutral,contradiction,33.33%,other,False
+Man working behind a watch repair booth on the street.,A man is working behind the small business on the street.,entailment,neutral,70.00%,missed_entailment,False
+A group at an outdoor party includes a man wearing camouflage pants with neon orange boots and suspenders.,The group is wearing bright clothing.,neutral,entailment,33.33%,false_entailment,False
+A band of people playing brass instruments is performing outside.,A jazz funeral is taking place.,neutral,contradiction,33.33%,other,False
+"Four women in front of Odeon wear similar black, pink and white superman type shirts and jean skirts.",Four women are wearing jean skirts outside of a cinema.,entailment,neutral,40.00%,missed_entailment,False
+"Four women in front of Odeon wear similar black, pink and white superman type shirts and jean skirts.",Four women are looking at their cellphones while the wait in a long line.,neutral,contradiction,21.43%,other,False
+A bridal party assembles outside a stone building.,A bridal party is bathering outside a stone building.,entailment,contradiction,75.00%,"high_overlap, false_contradiction",False
+Two men kayaking on the ocean near the shore while they fish.,There are two men in shallow water in kayaks.,neutral,entailment,25.00%,false_entailment,False
+"The Rockettes perform on the street in front of Radio City Music Hall, as well as next to a cop car.",The performance was exiting.,neutral,contradiction,25.00%,short_hypothesis,False
+"A woman dressed in a black sweater, blue jeans, and golden high heel boots is looking a merchandise in a storefront window.",A woman is standing in store.,neutral,entailment,66.67%,false_entailment,False
+A group of young men are raking lives in front of a home.,Men are doing yard work,entailment,neutral,40.00%,missed_entailment,False
+A group of men are playing basketball as the sun sets.,A couple men are on a basketball court.,neutral,entailment,57.14%,false_entailment,False
+A group of men are playing basketball as the sun sets.,There are two men with a basketball.,neutral,entailment,42.86%,false_entailment,False
+Two Asian women talking and having drinks at a small round table.,Two ladies are sitting at the bar.,contradiction,neutral,28.57%,other,False
+An elderly woman crafts a design on a loom.,The woman is sewing.,neutral,entailment,25.00%,"short_hypothesis, false_entailment",False
+"Two men dressed in identical white jackets with green numbers and logo are studying something on a cellphone with great interest, while other men, identically dressed and standing in a group with these two, are interested in something to their right.","Three men in matching jackets are standing together, one looking at a nearby person, the other two looking at a phone.",neutral,entailment,44.44%,"long_hypothesis, false_entailment",False
+A busy kitchen preparing for the afternoon rush.,They are cooking.,neutral,entailment,0.00%,"negation, low_overlap, short_hypothesis, false_entailment",True
+A man wearing a pink shirt and wearing glasses crouching down in front of a basket of clothing at the laundromat.,He wears contact lens.,contradiction,neutral,0.00%,"low_overlap, short_hypothesis",False
+A black dog leaps from the water near a wooded shoreline,dog leaping from a snake,neutral,contradiction,60.00%,other,False
+A woman is holding a dog on a leash in front of a small pier.,The little dog is restrained by the woman holding the leash,neutral,entailment,55.56%,false_entailment,False
+A street filled with people walking and riding bikes.,An empty street usually filled with people walking and riding bikes.,contradiction,neutral,72.73%,high_overlap,False
+Two men and one woman are performing music on a stage.,Musicians are spreading their passion on stage,neutral,entailment,28.57%,false_entailment,False
+Two men and one woman are performing music on a stage.,Three musicians are performing at a concert,entailment,neutral,42.86%,missed_entailment,False
+A man in a beanie doing a bike trick.,The man is upside down.,neutral,contradiction,20.00%,other,False
+Man reading a book while working as a street vendor.,A man takes a break from his job to read.,neutral,contradiction,22.22%,other,False
+A group of women observe as two men attempt to fix their bikes.,Three women observe as several men attempt to fix bikes.,neutral,contradiction,80.00%,"high_overlap, quantifier",False
+A group of women observe as two men attempt to fix their bikes.,The women fix bikes as men watch.,contradiction,entailment,57.14%,missed_contradiction,False
+Several black children sit at a table with colorful laptops in front of them.,A group black children sit at a table with their new colorful laptops.,entailment,neutral,66.67%,"quantifier, missed_entailment",False
+Two dogs play together on the bed.,Two dogs wrestling with a sheet on a bed.,entailment,neutral,50.00%,missed_entailment,False
+A person in a blue sweatshirt replaces letters in a theater marquee using a long pole.,"A person replaces letters on a marquee, as to not embarrass the theater for it.",entailment,neutral,35.71%,"negation, long_hypothesis, missed_entailment",True
+A man selling or buying oranges on a cart in an outside supermarket.,A man is conducting business outside of a store.,neutral,entailment,37.50%,false_entailment,False
+A marching band of kids while at a rodeo.,The kids are playing a song.,neutral,entailment,33.33%,false_entailment,False
+A young man in a green sweatshirt holds a young boy with a blue backpack and a yellow sweatshirt in front of a run-down building.,A man is holding a young boy.,neutral,entailment,50.00%,false_entailment,False
+A young man in a green sweatshirt holds a young boy with a blue backpack and a yellow sweatshirt in front of a run-down building.,A man is chasing after a young boy who is running after a ball.,contradiction,neutral,40.00%,other,False
+A man speaking or singing into a microphone while playing the piano.,An entertainer is tickling the ivories.,entailment,contradiction,16.67%,"negation, low_overlap, false_contradiction",True
+Three workers bent over pulling grass.,Three workers bent over backwards,neutral,contradiction,80.00%,high_overlap,False
+A person is sitting in front of three blue and white port-o-potties with a mop propped against them.,A person is sitting near portable toilets.,entailment,neutral,57.14%,missed_entailment,False
+"A woman lies on a bed with a red, orange, and blue striped comforter crumpled up next to her.",A woman wakes up.,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+"A japanese person with bleached blond-hair set in a design with spikes, wearing a black leather jacket.",The biker in black leather has spiky blond hair.,neutral,entailment,33.33%,false_entailment,False
+Three glass elevators with people inside of them.,tourists looking out of glass elevators.,entailment,neutral,33.33%,missed_entailment,False
+Six workers are working on the train tracks.,Sex workers are on strike at the train tracks.,contradiction,neutral,66.67%,other,False
+"A little boy is kneeling on the floor, scribbling with an orange and blue crayon on a paper, at a little table with the arm of a man resting on the table.",the boy and man are talking among themselves,contradiction,neutral,50.00%,other,False
+A man sits beside parked cars on a city street.,A man is sitting on a bench.,neutral,contradiction,50.00%,other,False
+"A man in a black shirt is working out in a gym, while a woman behind him is on a treadmill.",This women's-only gym is packed with numerous customers.,contradiction,neutral,12.50%,low_overlap,False
+A light colored dog splashes through the water.,The dog is having fun in the water.,entailment,neutral,42.86%,missed_entailment,False
+A man snowboards.,A man is standing on a snowboard.,entailment,neutral,33.33%,"negation, missed_entailment",True
+A girl in a child's swimming pool.,A girl in a small swimming pool.,entailment,neutral,83.33%,"high_overlap, missed_entailment",False
+The people ride down the road on sleds.,The sleds carry the people along the road,entailment,contradiction,50.00%,false_contradiction,False
+The people ride down the road on sleds.,The sleds slide easily on the powdery snow,neutral,contradiction,28.57%,negation,True
+A man wearing padded arm protection is being bitten by a German shepherd dog.,A man bit a dog.,contradiction,entailment,75.00%,"high_overlap, missed_contradiction",False
+A man wearing padded arm protection is being bitten by a German shepherd dog.,A man is bitten by a dog while training the dog.,entailment,neutral,60.00%,missed_entailment,False
+Santa Claus being photographed at a holiday media event.,Santa Claus is the center of attention as usual.,neutral,entailment,22.22%,false_entailment,False
+A young child is being held by another child looking straight at us.,The child is forty years old.,contradiction,neutral,33.33%,negation,True
+Javelin competition,The javelin competition was cancelled due to rain.,neutral,contradiction,25.00%,other,False
+"With the sun rising, a person is gliding with a huge parachute attached to them.",The person is falling to saftey with the parachute,entailment,neutral,75.00%,"high_overlap, missed_entailment",False
+A baseball player is sliding into a base while the baseman is catching an incoming ball during a major league baseball game.,A baseball player slides into home.,neutral,contradiction,66.67%,other,False
+"A man in a blue plaid shirt and blue jeans, wearing a black helmet, pauses to drink water next to a large blue steel corrugated tube.",A man is drinking soda at a soda fountain.,contradiction,neutral,28.57%,other,False
+"A man in a blue plaid shirt and blue jeans, wearing a black helmet, pauses to drink water next to a large blue steel corrugated tube.",The man is drinking water indoors.,neutral,contradiction,33.33%,other,False
+Two boys laying tile in a bathroom.,Some kids are working.,entailment,neutral,0.00%,"low_overlap, short_hypothesis, quantifier, missed_entailment",False
+Two boys laying tile in a bathroom.,Some boys repair a bathroom.,entailment,neutral,60.00%,"quantifier, missed_entailment",False
+the shadow silhouette of a woman standing near the water looking at a large attraction on the other side.,She is eating a corn dog.,neutral,contradiction,16.67%,low_overlap,False
+A race car sits in the pits.,The car is going fast.,contradiction,neutral,40.00%,other,False
+"From afar, a person walks down a path through a brown field.",A person is on a walk.,neutral,entailment,40.00%,false_entailment,False
+"From afar, a person walks down a path through a brown field.",A person takes a selfie.,contradiction,neutral,50.00%,other,False
+Two elderly people are walking down the street on a sunny day.,The elderly people are walking their poodles in the park.,neutral,contradiction,55.56%,other,False
+A bundled up Asian girl wearing a Camelbak and walking shoes walking her dog in a snowy forest.,A girl is walking through the Canadian tundra.,neutral,contradiction,37.50%,negation,True
+Performers sing together on stage,The performers are singing solo.,contradiction,neutral,20.00%,other,False
+An overweight man in a blue and black hooded sweatshirt works on a laptop computer outdoors.,A man does some work while sitting outside at a park.,entailment,neutral,20.00%,"quantifier, missed_entailment",False
+A man in a straw hat shades his phone while others walk on a busy sidewalk.,The man is sitting on the sidewalk as others walk by him.,neutral,entailment,36.36%,false_entailment,False
+A swimmer is getting out of a pool where people are swimming laps and is having her picture taken as a crowd looks on from the edge of the pool.,A swimmer is drying off,neutral,contradiction,60.00%,other,False
+A Asian man in a red and yellow uniform diving for the birdie in a game,A birdie retrieves its uniform from a person,contradiction,neutral,42.86%,other,False
+A Asian man in a red and yellow uniform diving for the birdie in a game,a person in a uniform does something,neutral,entailment,50.00%,false_entailment,False
+"These two people in hats are standing on rocky terrain, with their arms around each other.",Two people are hugging.,neutral,entailment,75.00%,"high_overlap, short_hypothesis, quantifier, false_entailment",False
+"These two people in hats are standing on rocky terrain, with their arms around each other.",Two people on rocky terrain waving at each other with both arms.,contradiction,neutral,50.00%,quantifier,False
+A dog gnawing on a bone.,A dog found a bone,neutral,entailment,50.00%,false_entailment,False
+A lady with a purse on his shoulder reaching upward and putting a crown in a statue's hand.,There is a lady putting a crown on her statue.,neutral,entailment,55.56%,false_entailment,False
+A man spiking the ball at a volleyball game.,The teams play against one another during a volleyball game.,entailment,neutral,40.00%,"negation, missed_entailment",True
+A man spiking the ball at a volleyball game.,The man misses the volleyball.,contradiction,entailment,50.00%,missed_contradiction,False
+Leaving the amusement park with lots of prizes.,Staying at the amusment park until the cops show up.,contradiction,neutral,22.22%,other,False
+Leaving the amusement park with lots of prizes.,Leaving the amusment park with a giant teddy bear.,neutral,contradiction,44.44%,other,False
+A boy and dog are on the lawn outside of the house and in front of the flower bed.,A boy and dog play outside.,entailment,neutral,66.67%,missed_entailment,False
+A young man trying to buy a car from his dealer after his old car was towed away by police.,A man trying to buy a new car from someone.,neutral,contradiction,77.78%,high_overlap,False
+A young man trying to buy a car from his dealer after his old car was towed away by police.,A person renting a vehicle.,contradiction,entailment,25.00%,missed_contradiction,False
+A woman huge a fluffy white dog.,The dog is embraced by the woman,entailment,neutral,16.67%,"low_overlap, missed_entailment",False
+A woman huge a fluffy white dog.,The dog is large,neutral,entailment,0.00%,"low_overlap, short_hypothesis, false_entailment",False
+Football players playing in mud.,Football players are wrestling in mud.,neutral,contradiction,66.67%,other,False
+A man speaking to a woman with a stroller in a room with several dinners.,the man is black,contradiction,neutral,25.00%,"short_hypothesis, quantifier",False
+Skier wearing red walking up a snowy hillside.,Skier walking up the hill to the water slide.,contradiction,neutral,37.50%,negation,True
+A group of people look over ledge.,The group of people are looking up.,neutral,entailment,42.86%,false_entailment,False
+People of another country are gathered at the farmer's market.,Foreigners are assembled at a market.,entailment,neutral,50.00%,"negation, missed_entailment",True
+A dog running in the sand.,A dog is running outside at the beach.,entailment,neutral,50.00%,missed_entailment,False
+A child does a handstand in a pool.,A small boy is in a pool.,entailment,neutral,50.00%,missed_entailment,False
+Rival female basketball teams are playing a game in front of an audience at an indoor arena.,Two female basketball teams are both trying to win the game.,entailment,neutral,36.36%,missed_entailment,False
+"Four people sit on a subway two read books, one looks at a cellphone and is wearing knee high boots.","Multiple people are on a subway together, with each of them doing their own thing.",entailment,contradiction,26.67%,"long_hypothesis, quantifier, false_contradiction",False
+A woman sits on a bed and puts on her red socks.,"A woman is sitting on a bed, taking her socks off",contradiction,neutral,40.00%,other,False
+"Two competitors in the last leg of a race, strong legs, long strides to the end.",The race has just started.,contradiction,entailment,20.00%,missed_contradiction,False
+"A snowboarder in a red jacket flies through the air, above a hill of snow, and next to a red and white sign.",The snowboarder is on a ski lift.,neutral,contradiction,42.86%,negation,True
+A gentleman carrying the 2012 Olympic torch being follow by a car on a people lined street.,a man stole the 2012 olympic torch and runs from a police officer,neutral,contradiction,41.67%,other,False
+A gentleman carrying the 2012 Olympic torch being follow by a car on a people lined street.,a man carries the 2012 olympic torch down a street while a person in a car tries to pass him,neutral,entailment,35.29%,"long_hypothesis, false_entailment",False
+A small group of adults and children stand on a cobblestone street outside of an Irish pub.,The small group stands outside on a stone street,entailment,contradiction,66.67%,false_contradiction,False
+a redheaded lady is reading a book while waiting for the train.,a woman is reading a book on her ride home.,contradiction,neutral,44.44%,other,False
+Two men boxing a ring while one boxer is hitting the other.,They are playing ring around the rosy.,contradiction,neutral,28.57%,other,False
+Two men boxing a ring while one boxer is hitting the other.,They are in a boxing match.,entailment,neutral,33.33%,missed_entailment,False
+A man wearing a red bicycle helmet talking on a cellphone with other people in the background.,A man talks on his walky talky.,contradiction,neutral,42.86%,other,False
+An old woman in a green and blue plaid shirt is standing on a crowded sidewalk smiling.,A woman watching a street performer play guitar.,neutral,contradiction,28.57%,other,False
+A little girl in a red and white shirt stands next to some caricatures of celebrities at an art fair.,a kid stands near modern art,neutral,entailment,50.00%,"quantifier, false_entailment",False
+A little girl in a red and white shirt stands next to some caricatures of celebrities at an art fair.,a child with a skirt and red stands in an art fair,entailment,neutral,63.64%,"quantifier, missed_entailment",False
+"A firefighter, in full uniform, looks off into the distance.",This firefighter is on duty.,entailment,neutral,0.00%,"low_overlap, missed_entailment",False
+A woman in a pink shirt is painting the last two stars on a painting of the American flag.,The woman is using different colors,neutral,entailment,50.00%,false_entailment,False
+"A man in an orange construction vest walks in a parade with a child atop his shoulders, carry balloons.",The has two legs.,contradiction,entailment,0.00%,"low_overlap, short_hypothesis, missed_contradiction",False
+"A man in an orange construction vest walks in a parade with a child atop his shoulders, carry balloons.",The child has no legs.,neutral,contradiction,20.00%,negation,True
+A woman in a tan top and jeans is sitting on a bench wearing headphones.,A woman is listening to music.,entailment,neutral,50.00%,missed_entailment,False
+"A West Virginia university women's basketball team, officials, and a small gathering of fans are in a West Virginia arena.",women are playing basketball,neutral,entailment,50.00%,"short_hypothesis, false_entailment",False
+Two children in a bag race competing against each other while another boy watches on.,The boy watching has a broken leg.,neutral,contradiction,28.57%,"negation, quantifier",True
+A woman wearing sunglasses holds two newspapers.,A woman squints at the sun and wishes she had her sunglasses.,contradiction,neutral,16.67%,low_overlap,False
+A policeman is directing a crowd of people walking.,A policeman is herding pedestrians.,entailment,contradiction,60.00%,false_contradiction,False
+A group of people is gathered around a table of food with their arms around each other.,A group of people are gather around a meeting room table.,neutral,contradiction,50.00%,quantifier,False
+Child squirting paint onto a piece of spin-art.,The child has paint all over their hands.,neutral,entailment,25.00%,"quantifier, false_entailment",False
+"A uniformed competitor in motocross has crossed a jump in the course and is astride his motorcycle in midair, with several young men looking on.",A man is performing motorcycle jump across the finish line while his friends cheer him on.,entailment,neutral,43.75%,"long_hypothesis, quantifier, missed_entailment",False
+A small girl wearing a pink jacket is riding on a carousel.,The girl is moving at the speed of light.,contradiction,entailment,25.00%,missed_contradiction,False
