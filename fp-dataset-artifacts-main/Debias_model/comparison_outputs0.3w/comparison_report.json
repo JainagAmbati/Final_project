@@ -1,0 +1,42 @@
+{
+  "overall": {
+    "baseline_accuracy": 0.8915870757976021,
+    "debiased_accuracy": 0.8915870757976021,
+    "improvement": 0.0,
+    "examples_fixed": 267,
+    "new_errors": 267,
+    "net_improvement": 0
+  },
+  "overlap_analysis": {
+    "Very Low (0-20%)": {
+      "baseline": 0.882275997383911,
+      "debiased": 0.8888162197514715,
+      "change": 0.0065402223675604665,
+      "count": 1529
+    },
+    "Low (20-40%)": {
+      "baseline": 0.8777997364953887,
+      "debiased": 0.8817523056653491,
+      "change": 0.0039525691699604515,
+      "count": 3036
+    },
+    "Medium (40-60%)": {
+      "baseline": 0.8903598099117448,
+      "debiased": 0.8856076035302105,
+      "change": -0.004752206381534285,
+      "count": 2946
+    },
+    "High (60-80%)": {
+      "baseline": 0.9030037546933667,
+      "debiased": 0.9030037546933667,
+      "change": 0.0,
+      "count": 1598
+    },
+    "Very High (80-100%)": {
+      "baseline": 0.9481582537517054,
+      "debiased": 0.937244201909959,
+      "change": -0.01091405184174632,
+      "count": 733
+    }
+  }
+}

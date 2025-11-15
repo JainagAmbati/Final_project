@@ -1,0 +1,58 @@
+{
+  "os":  "Linux-6.6.105+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2025-11-15T09:09:38.957878Z",
+  "args":  [
+    "--do_train",
+    "--do_eval",
+    "--dataset",
+    "snli",
+    "--main_model",
+    "google/electra-small-discriminator",
+    "--bias_model",
+    "./hyponly_checkpoint_51500/",
+    "--output_dir",
+    "./residual_debiased_model",
+    "--num_train_epochs",
+    "3",
+    "--per_device_train_batch_size",
+    "512",
+    "--filter_strategy",
+    "reweight"
+  ],
+  "program":  "/content/Final_project/fp-dataset-artifacts-main/Debias_model/residual_debias.py",
+  "codePath":  "fp-dataset-artifacts-main/Debias_model/residual_debias.py",
+  "codePathLocal":  "residual_debias.py",
+  "git":  {
+    "remote":  "https://github.com/JainagAmbati/Final_project.git",
+    "commit":  "e0a4e8cf4bf89646b75bb0a869190f40d06a8783"
+  },
+  "email":  "jainagambati@gmail.com",
+  "root":  "/content/Final_project/fp-dataset-artifacts-main/Debias_model",
+  "host":  "fe8c00a248fa",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  1,
+  "cpu_count_logical":  2,
+  "gpu":  "Tesla T4",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "253055008768",
+      "used":  "46639050752"
+    }
+  },
+  "memory":  {
+    "total":  "13605851136"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla T4",
+      "memoryTotal":  "16106127360",
+      "cudaCores":  2560,
+      "architecture":  "Turing",
+      "uuid":  "GPU-76d98f67-d795-029f-e393-5c35574edcf1"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "0bg97j8ouhs27uyflfoiyrfoihim84mz"
+}
