@@ -1,0 +1,59 @@
+{
+  "os":  "Linux-6.6.105+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2025-11-16T07:35:06.436075Z",
+  "args":  [
+    "--do_train",
+    "--do_eval",
+    "--model",
+    "google/electra-small-discriminator",
+    "--output_dir",
+    "./challenge_mix_model",
+    "--num_train_epochs",
+    "3",
+    "--per_device_train_batch_size",
+    "64",
+    "--fp16",
+    "--use_hans",
+    "--use_anli",
+    "--mixing_strategy",
+    "augment",
+    "--max_challenge",
+    "50000"
+  ],
+  "program":  "/content/Final_project/fp-dataset-artifacts-main/Contrastive_model/challenge_set_debias.py",
+  "codePath":  "fp-dataset-artifacts-main/Contrastive_model/challenge_set_debias.py",
+  "codePathLocal":  "challenge_set_debias.py",
+  "git":  {
+    "remote":  "https://github.com/JainagAmbati/Final_project.git",
+    "commit":  "3c434bb4ba8fdc5aa96c8bac6ad320473eb0c358"
+  },
+  "email":  "jainagambati@gmail.com",
+  "root":  "/content/Final_project/fp-dataset-artifacts-main/Contrastive_model",
+  "host":  "e5da04f4075c",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA A100-SXM4-40GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "253055008768",
+      "used":  "63117885440"
+    }
+  },
+  "memory":  {
+    "total":  "89629220864"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100-SXM4-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-de734606-b9e7-698a-fdf9-95cceb12cecd"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "4lj84net5fw6cu25025v1uvz8q1n7bah"
+}

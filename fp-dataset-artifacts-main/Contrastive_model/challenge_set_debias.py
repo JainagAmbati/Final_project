@@ -15,6 +15,9 @@ sys.path.insert(0, '..')
 import datasets
 import json
 import torch
+import pandas as pd
+import requests
+from io import StringIO
 from transformers import (
     AutoTokenizer, 
     AutoModelForSequenceClassification,
@@ -35,12 +38,51 @@ def load_hans_dataset():
     """
     print("Loading HANS dataset...")
     try:
-        hans = datasets.load_dataset("hans")
+        # Try loading from HuggingFace datasets (newer method)
+        hans = datasets.load_dataset("hans", trust_remote_code=True)
         print(f"✓ HANS loaded: {len(hans['train'])} train, {len(hans['validation'])} validation")
         return hans
-    except Exception as e:
-        print(f"✗ Could not load HANS: {e}")
-        return None
+    except Exception as e1:
+        print(f"  First method failed: {e1}")
+        try:
+            # Try alternative: load from direct URL
+            print("  Trying to load HANS from alternative source...")
+            hans_train_url = "https://raw.githubusercontent.com/tommccoy1/hans/master/heuristics_train_set.txt"
+            hans_val_url = "https://raw.githubusercontent.com/tommccoy1/hans/master/heuristics_evaluation_set.txt"
+            
+            import pandas as pd
+            import requests
+            from io import StringIO
+            
+            # Download and parse
+            train_response = requests.get(hans_train_url)
+            train_data = pd.read_csv(StringIO(train_response.text), sep='\t')
+            
+            val_response = requests.get(hans_val_url)
+            val_data = pd.read_csv(StringIO(val_response.text), sep='\t')
+            
+            # Convert to HuggingFace dataset format
+            def convert_hans_df(df):
+                return {
+                    'premise': df['sentence1'].tolist(),
+                    'hypothesis': df['sentence2'].tolist(),
+                    'label': [0 if x == 'entailment' else 1 for x in df['gold_label'].tolist()]
+                }
+            
+            hans_train_dict = convert_hans_df(train_data)
+            hans_val_dict = convert_hans_df(val_data)
+            
+            hans_dataset = datasets.DatasetDict({
+                'train': datasets.Dataset.from_dict(hans_train_dict),
+                'validation': datasets.Dataset.from_dict(hans_val_dict)
+            })
+            
+            print(f"✓ HANS loaded from GitHub: {len(hans_dataset['train'])} train, {len(hans_dataset['validation'])} validation")
+            return hans_dataset
+            
+        except Exception as e2:
+            print(f"✗ Could not load HANS from alternative source: {e2}")
+            return None
 
 
 def load_anli_dataset():
