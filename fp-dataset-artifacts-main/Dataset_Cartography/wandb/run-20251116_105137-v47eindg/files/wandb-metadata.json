@@ -1,0 +1,57 @@
+{
+  "os":  "Linux-6.6.105+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2025-11-16T10:51:37.588896Z",
+  "args":  [
+    "--do_train",
+    "--do_eval",
+    "--model",
+    "google/electra-small-discriminator",
+    "--load_cartography",
+    "./cartography_model/cartography",
+    "--training_strategy",
+    "remove_easy",
+    "--output_dir",
+    "./cartography_remove_easy",
+    "--num_train_epochs",
+    "3",
+    "--per_device_train_batch_size",
+    "128",
+    "--fp16"
+  ],
+  "program":  "/content/Final_project/fp-dataset-artifacts-main/Dataset_Cartography/dataset_cartography.py",
+  "codePath":  "fp-dataset-artifacts-main/Dataset_Cartography/dataset_cartography.py",
+  "codePathLocal":  "dataset_cartography.py",
+  "git":  {
+    "remote":  "https://github.com/JainagAmbati/Final_project.git",
+    "commit":  "1435fe43c2332affd372ecdbceeaff9dac323c09"
+  },
+  "email":  "jainagambati@gmail.com",
+  "root":  "/content/Final_project/fp-dataset-artifacts-main/Dataset_Cartography",
+  "host":  "e5da04f4075c",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA A100-SXM4-40GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "253055008768",
+      "used":  "82571669504"
+    }
+  },
+  "memory":  {
+    "total":  "89629220864"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA A100-SXM4-40GB",
+      "memoryTotal":  "42949672960",
+      "cudaCores":  6912,
+      "architecture":  "Ampere",
+      "uuid":  "GPU-de734606-b9e7-698a-fdf9-95cceb12cecd"
+    }
+  ],
+  "cudaVersion":  "12.4",
+  "writerId":  "24v5v8pzh2hbwibnmfj9qbw3746g2doz"
+}
